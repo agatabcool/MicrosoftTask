@@ -1,0 +1,516 @@
+The system is: Darwin - 14.0.0 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is AppleClang, found in "/Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/3.1.1/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is AppleClang, found in "/Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/3.1.1/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2436875991/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec2436875991.dir/build.make CMakeFiles/cmTryCompileExec2436875991.dir/build
+/usr/local/Cellar/cmake/3.1.1/bin/cmake -E cmake_progress_report /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2436875991.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2436875991.dir/testCCompiler.c.o   -c /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec2436875991
+/usr/local/Cellar/cmake/3.1.1/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2436875991.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec2436875991.dir/testCCompiler.c.o  -o cmTryCompileExec2436875991  
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec120633211/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec120633211.dir/build.make CMakeFiles/cmTryCompileExec120633211.dir/build
+/usr/local/Cellar/cmake/3.1.1/bin/cmake -E cmake_progress_report /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec120633211.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec120633211.dir/CMakeCCompilerABI.c.o   -c /usr/local/Cellar/cmake/3.1.1/share/cmake/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec120633211
+/usr/local/Cellar/cmake/3.1.1/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec120633211.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names -v -Wl,-v CMakeFiles/cmTryCompileExec120633211.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec120633211   
+Apple LLVM version 6.0 (clang-600.0.56) (based on LLVM 3.5svn)
+Target: x86_64-apple-darwin14.0.0
+Thread model: posix
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.10.0 -o cmTryCompileExec120633211 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTryCompileExec120633211.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/6.0/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-241.9
+configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7m armv7em
+Library search paths:
+	/usr/lib
+	/usr/local/lib
+Framework search paths:
+	/Library/Frameworks/
+	/System/Library/Frameworks/
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTryCompileExec120633211/fast"]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec120633211.dir/build.make CMakeFiles/cmTryCompileExec120633211.dir/build]
+  ignore line: [/usr/local/Cellar/cmake/3.1.1/bin/cmake -E cmake_progress_report /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec120633211.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTryCompileExec120633211.dir/CMakeCCompilerABI.c.o   -c /usr/local/Cellar/cmake/3.1.1/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec120633211]
+  ignore line: [/usr/local/Cellar/cmake/3.1.1/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec120633211.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names -v -Wl,-v CMakeFiles/cmTryCompileExec120633211.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec120633211   ]
+  ignore line: [Apple LLVM version 6.0 (clang-600.0.56) (based on LLVM 3.5svn)]
+  ignore line: [Target: x86_64-apple-darwin14.0.0]
+  ignore line: [Thread model: posix]
+  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.10.0 -o cmTryCompileExec120633211 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTryCompileExec120633211.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/6.0/lib/darwin/libclang_rt.osx.a]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.10.0] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec120633211] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTryCompileExec120633211.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lSystem] ==> lib [System]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/6.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/6.0/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/usr/lib;/usr/local/lib]
+  Framework search paths: [;/Library/Frameworks/;/System/Library/Frameworks/]
+  remove lib [System]
+  collapse lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/6.0/lib/darwin/libclang_rt.osx.a] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/6.0/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
+  collapse framework dir [/Library/Frameworks/] ==> [/Library/Frameworks]
+  collapse framework dir [/System/Library/Frameworks/] ==> [/System/Library/Frameworks]
+  implicit libs: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/6.0/lib/darwin/libclang_rt.osx.a]
+  implicit dirs: [/usr/lib;/usr/local/lib]
+  implicit fwks: [/Library/Frameworks;/System/Library/Frameworks]
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3228745874/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec3228745874.dir/build.make CMakeFiles/cmTryCompileExec3228745874.dir/build
+/usr/local/Cellar/cmake/3.1.1/bin/cmake -E cmake_progress_report /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3228745874.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec3228745874.dir/testCXXCompiler.cxx.o -c /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec3228745874
+/usr/local/Cellar/cmake/3.1.1/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3228745874.dir/link.txt --verbose=1
+/usr/bin/c++     -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec3228745874.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec3228745874  
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec430692400/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec430692400.dir/build.make CMakeFiles/cmTryCompileExec430692400.dir/build
+/usr/local/Cellar/cmake/3.1.1/bin/cmake -E cmake_progress_report /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec430692400.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec430692400.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Cellar/cmake/3.1.1/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec430692400
+/usr/local/Cellar/cmake/3.1.1/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec430692400.dir/link.txt --verbose=1
+/usr/bin/c++     -Wl,-search_paths_first -Wl,-headerpad_max_install_names -v -Wl,-v CMakeFiles/cmTryCompileExec430692400.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec430692400   
+Apple LLVM version 6.0 (clang-600.0.56) (based on LLVM 3.5svn)
+Target: x86_64-apple-darwin14.0.0
+Thread model: posix
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.10.0 -o cmTryCompileExec430692400 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTryCompileExec430692400.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/6.0/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-241.9
+configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7m armv7em
+Library search paths:
+	/usr/lib
+	/usr/local/lib
+Framework search paths:
+	/Library/Frameworks/
+	/System/Library/Frameworks/
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTryCompileExec430692400/fast"]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec430692400.dir/build.make CMakeFiles/cmTryCompileExec430692400.dir/build]
+  ignore line: [/usr/local/Cellar/cmake/3.1.1/bin/cmake -E cmake_progress_report /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec430692400.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTryCompileExec430692400.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Cellar/cmake/3.1.1/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec430692400]
+  ignore line: [/usr/local/Cellar/cmake/3.1.1/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec430692400.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++     -Wl,-search_paths_first -Wl,-headerpad_max_install_names -v -Wl,-v CMakeFiles/cmTryCompileExec430692400.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec430692400   ]
+  ignore line: [Apple LLVM version 6.0 (clang-600.0.56) (based on LLVM 3.5svn)]
+  ignore line: [Target: x86_64-apple-darwin14.0.0]
+  ignore line: [Thread model: posix]
+  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.10.0 -o cmTryCompileExec430692400 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTryCompileExec430692400.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/6.0/lib/darwin/libclang_rt.osx.a]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.10.0] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec430692400] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTryCompileExec430692400.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lc++] ==> lib [c++]
+    arg [-lSystem] ==> lib [System]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/6.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/6.0/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/usr/lib;/usr/local/lib]
+  Framework search paths: [;/Library/Frameworks/;/System/Library/Frameworks/]
+  remove lib [System]
+  collapse lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/6.0/lib/darwin/libclang_rt.osx.a] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/6.0/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
+  collapse framework dir [/Library/Frameworks/] ==> [/Library/Frameworks]
+  collapse framework dir [/System/Library/Frameworks/] ==> [/System/Library/Frameworks]
+  implicit libs: [c++;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/6.0/lib/darwin/libclang_rt.osx.a]
+  implicit dirs: [/usr/lib;/usr/local/lib]
+  implicit fwks: [/Library/Frameworks;/System/Library/Frameworks]
+
+
+Determining if the Q_WS_MAC exist passed with the following output:
+Change Dir: /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2983470562/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec2983470562.dir/build.make CMakeFiles/cmTryCompileExec2983470562.dir/build
+/usr/local/Cellar/cmake/3.1.1/bin/cmake -E cmake_progress_report /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2983470562.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/local/Cellar/qt/4.8.6/include -F/usr/local/Cellar/qt/4.8.6/lib    -o CMakeFiles/cmTryCompileExec2983470562.dir/CheckSymbolExists.cxx.o -c /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTryCompileExec2983470562
+/usr/local/Cellar/cmake/3.1.1/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2983470562.dir/link.txt --verbose=1
+/usr/bin/c++     -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec2983470562.dir/CheckSymbolExists.cxx.o  -o cmTryCompileExec2983470562  
+
+File /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the QT_MAC_USE_COCOA exist passed with the following output:
+Change Dir: /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2630454148/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec2630454148.dir/build.make CMakeFiles/cmTryCompileExec2630454148.dir/build
+/usr/local/Cellar/cmake/3.1.1/bin/cmake -E cmake_progress_report /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2630454148.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/local/Cellar/qt/4.8.6/include -F/usr/local/Cellar/qt/4.8.6/lib    -o CMakeFiles/cmTryCompileExec2630454148.dir/CheckSymbolExists.cxx.o -c /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTryCompileExec2630454148
+/usr/local/Cellar/cmake/3.1.1/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2630454148.dir/link.txt --verbose=1
+/usr/bin/c++     -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec2630454148.dir/CheckSymbolExists.cxx.o  -o cmTryCompileExec2630454148  
+
+File /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qconfig.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef QT_MAC_USE_COCOA
+  return ((int*)(&QT_MAC_USE_COCOA))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_MAC exist passed with the following output:
+Change Dir: /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec839129329/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec839129329.dir/build.make CMakeFiles/cmTryCompileExec839129329.dir/build
+/usr/local/Cellar/cmake/3.1.1/bin/cmake -E cmake_progress_report /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec839129329.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/local/Cellar/qt/4.8.6/include -F/usr/local/Cellar/qt/4.8.6/lib    -o CMakeFiles/cmTryCompileExec839129329.dir/CheckSymbolExists.cxx.o -c /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTryCompileExec839129329
+/usr/local/Cellar/cmake/3.1.1/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec839129329.dir/link.txt --verbose=1
+/usr/bin/c++     -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec839129329.dir/CheckSymbolExists.cxx.o  -o cmTryCompileExec839129329  
+
+File /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the QT_MAC_USE_COCOA exist passed with the following output:
+Change Dir: /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1903345494/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec1903345494.dir/build.make CMakeFiles/cmTryCompileExec1903345494.dir/build
+/usr/local/Cellar/cmake/3.1.1/bin/cmake -E cmake_progress_report /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1903345494.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/local/Cellar/qt/4.8.6/include -F/usr/local/Cellar/qt/4.8.6/lib    -o CMakeFiles/cmTryCompileExec1903345494.dir/CheckSymbolExists.cxx.o -c /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTryCompileExec1903345494
+/usr/local/Cellar/cmake/3.1.1/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1903345494.dir/link.txt --verbose=1
+/usr/bin/c++     -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec1903345494.dir/CheckSymbolExists.cxx.o  -o cmTryCompileExec1903345494  
+
+File /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qconfig.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef QT_MAC_USE_COCOA
+  return ((int*)(&QT_MAC_USE_COCOA))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_MAC exist passed with the following output:
+Change Dir: /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2636983459/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec2636983459.dir/build.make CMakeFiles/cmTryCompileExec2636983459.dir/build
+/usr/local/Cellar/cmake/3.1.1/bin/cmake -E cmake_progress_report /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2636983459.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/local/Cellar/qt/4.8.6/include -F/usr/local/Cellar/qt/4.8.6/lib    -o CMakeFiles/cmTryCompileExec2636983459.dir/CheckSymbolExists.cxx.o -c /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTryCompileExec2636983459
+/usr/local/Cellar/cmake/3.1.1/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2636983459.dir/link.txt --verbose=1
+/usr/bin/c++     -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec2636983459.dir/CheckSymbolExists.cxx.o  -o cmTryCompileExec2636983459  
+
+File /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the QT_MAC_USE_COCOA exist passed with the following output:
+Change Dir: /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3386480137/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec3386480137.dir/build.make CMakeFiles/cmTryCompileExec3386480137.dir/build
+/usr/local/Cellar/cmake/3.1.1/bin/cmake -E cmake_progress_report /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3386480137.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/local/Cellar/qt/4.8.6/include -F/usr/local/Cellar/qt/4.8.6/lib    -o CMakeFiles/cmTryCompileExec3386480137.dir/CheckSymbolExists.cxx.o -c /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTryCompileExec3386480137
+/usr/local/Cellar/cmake/3.1.1/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3386480137.dir/link.txt --verbose=1
+/usr/bin/c++     -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec3386480137.dir/CheckSymbolExists.cxx.o  -o cmTryCompileExec3386480137  
+
+File /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qconfig.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef QT_MAC_USE_COCOA
+  return ((int*)(&QT_MAC_USE_COCOA))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_MAC exist passed with the following output:
+Change Dir: /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec592528240/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec592528240.dir/build.make CMakeFiles/cmTryCompileExec592528240.dir/build
+/usr/local/Cellar/cmake/3.1.1/bin/cmake -E cmake_progress_report /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec592528240.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/local/Cellar/qt/4.8.6/include -F/usr/local/Cellar/qt/4.8.6/lib    -o CMakeFiles/cmTryCompileExec592528240.dir/CheckSymbolExists.cxx.o -c /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTryCompileExec592528240
+/usr/local/Cellar/cmake/3.1.1/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec592528240.dir/link.txt --verbose=1
+/usr/bin/c++     -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec592528240.dir/CheckSymbolExists.cxx.o  -o cmTryCompileExec592528240  
+
+File /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the QT_MAC_USE_COCOA exist passed with the following output:
+Change Dir: /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2610340832/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec2610340832.dir/build.make CMakeFiles/cmTryCompileExec2610340832.dir/build
+/usr/local/Cellar/cmake/3.1.1/bin/cmake -E cmake_progress_report /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2610340832.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/local/Cellar/qt/4.8.6/include -F/usr/local/Cellar/qt/4.8.6/lib    -o CMakeFiles/cmTryCompileExec2610340832.dir/CheckSymbolExists.cxx.o -c /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTryCompileExec2610340832
+/usr/local/Cellar/cmake/3.1.1/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2610340832.dir/link.txt --verbose=1
+/usr/bin/c++     -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec2610340832.dir/CheckSymbolExists.cxx.o  -o cmTryCompileExec2610340832  
+
+File /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qconfig.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef QT_MAC_USE_COCOA
+  return ((int*)(&QT_MAC_USE_COCOA))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_MAC exist passed with the following output:
+Change Dir: /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3742538460/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec3742538460.dir/build.make CMakeFiles/cmTryCompileExec3742538460.dir/build
+/usr/local/Cellar/cmake/3.1.1/bin/cmake -E cmake_progress_report /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3742538460.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/local/Cellar/qt/4.8.6/include -F/usr/local/Cellar/qt/4.8.6/lib    -o CMakeFiles/cmTryCompileExec3742538460.dir/CheckSymbolExists.cxx.o -c /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTryCompileExec3742538460
+/usr/local/Cellar/cmake/3.1.1/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3742538460.dir/link.txt --verbose=1
+/usr/bin/c++     -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec3742538460.dir/CheckSymbolExists.cxx.o  -o cmTryCompileExec3742538460  
+
+File /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the QT_MAC_USE_COCOA exist passed with the following output:
+Change Dir: /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec700375561/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec700375561.dir/build.make CMakeFiles/cmTryCompileExec700375561.dir/build
+/usr/local/Cellar/cmake/3.1.1/bin/cmake -E cmake_progress_report /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec700375561.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/local/Cellar/qt/4.8.6/include -F/usr/local/Cellar/qt/4.8.6/lib    -o CMakeFiles/cmTryCompileExec700375561.dir/CheckSymbolExists.cxx.o -c /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTryCompileExec700375561
+/usr/local/Cellar/cmake/3.1.1/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec700375561.dir/link.txt --verbose=1
+/usr/bin/c++     -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec700375561.dir/CheckSymbolExists.cxx.o  -o cmTryCompileExec700375561  
+
+File /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qconfig.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef QT_MAC_USE_COCOA
+  return ((int*)(&QT_MAC_USE_COCOA))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_MAC exist passed with the following output:
+Change Dir: /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1799059588/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec1799059588.dir/build.make CMakeFiles/cmTryCompileExec1799059588.dir/build
+/usr/local/Cellar/cmake/3.1.1/bin/cmake -E cmake_progress_report /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1799059588.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/local/Cellar/qt/4.8.6/include -F/usr/local/Cellar/qt/4.8.6/lib    -o CMakeFiles/cmTryCompileExec1799059588.dir/CheckSymbolExists.cxx.o -c /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTryCompileExec1799059588
+/usr/local/Cellar/cmake/3.1.1/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1799059588.dir/link.txt --verbose=1
+/usr/bin/c++     -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec1799059588.dir/CheckSymbolExists.cxx.o  -o cmTryCompileExec1799059588  
+
+File /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the QT_MAC_USE_COCOA exist passed with the following output:
+Change Dir: /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1339649338/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec1339649338.dir/build.make CMakeFiles/cmTryCompileExec1339649338.dir/build
+/usr/local/Cellar/cmake/3.1.1/bin/cmake -E cmake_progress_report /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1339649338.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/local/Cellar/qt/4.8.6/include -F/usr/local/Cellar/qt/4.8.6/lib    -o CMakeFiles/cmTryCompileExec1339649338.dir/CheckSymbolExists.cxx.o -c /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTryCompileExec1339649338
+/usr/local/Cellar/cmake/3.1.1/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1339649338.dir/link.txt --verbose=1
+/usr/bin/c++     -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec1339649338.dir/CheckSymbolExists.cxx.o  -o cmTryCompileExec1339649338  
+
+File /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qconfig.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef QT_MAC_USE_COCOA
+  return ((int*)(&QT_MAC_USE_COCOA))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+

@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+8b043a8c89fa42a0f21abbf5acb9e429 CMakeFiles/MicrosoftTask_automoc

@@ -1,0 +1,1 @@
+set(AM_OLD_COMPILE_SETTINGS "QT_CORE_LIB;QT_GUI_LIB;QT_NO_DEBUG ~~~ /usr/local/Cellar/qt/4.8.6/include;/usr/local/Cellar/qt/4.8.6/lib/QtCore.framework;/usr/local/Cellar/qt/4.8.6/include/QtGui;/usr/local/Cellar/qt/4.8.6/lib/QtCore.framework/Headers;/Users/agata/Desktop/CodingProjects/MicrosoftTask ~~~  ~~~ FALSE ~~~ ")
