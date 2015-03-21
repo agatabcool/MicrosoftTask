@@ -4,7 +4,7 @@
 #include <string>
 #include <vector>
 
-struct Data{
+struct ParsedData{
 	std::vector<int>relev;
 	std::vector<std::string>qid;
 	std::vector<std::vector<double> >feats;
@@ -17,6 +17,9 @@ class PreprocessData
 public:
 	PreprocessData();
 	void loadDataFile(std::string fn);
+	ParsedData my_data;
+
+private:
 	void parse_line(std::string fn);
 	void parse_qid(std::string qidstr);
 	void parse_docid(std::string qidstr);
@@ -24,8 +27,8 @@ public:
 
 	void printstrs(std::vector<std::string> strs);
 
-private:
-	Data my_data;
+
+
 };
 
 #endif

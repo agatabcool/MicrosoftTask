@@ -48,6 +48,7 @@ void MainWindow::loadFile(){
 		 std::cout << fileName.toStdString() <<std::endl;
 		 PreprocessData pd;
 		 pd.loadDataFile(fileName.toStdString());
+		 std::cout << "helllow: " << pd.my_data.docid.front() <<std::endl;
 
 	 }
 
