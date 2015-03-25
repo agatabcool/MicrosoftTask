@@ -33,12 +33,6 @@ QSignalMapper
 -
 numeric
 -
-QFile
--
-QTextStream
--
-QDebug
--
 
 /Users/agata/Desktop/CodingProjects/MicrosoftTask/src/MainWindow.h
 QMainWindow
@@ -3934,10 +3928,6 @@ qdatetime.h
 qdebug.h
 /usr/local/Cellar/qt/4.8.6/lib/QtCore.framework/Headers/qdebug.h
 
-/usr/local/Cellar/qt/4.8.6/lib/QtCore.framework/Headers/QFile
-qfile.h
-/usr/local/Cellar/qt/4.8.6/lib/QtCore.framework/Headers/qfile.h
-
 /usr/local/Cellar/qt/4.8.6/lib/QtCore.framework/Headers/QFlags
 qglobal.h
 /usr/local/Cellar/qt/4.8.6/lib/QtCore.framework/Headers/qglobal.h
@@ -3969,10 +3959,6 @@ qstack.h
 /usr/local/Cellar/qt/4.8.6/lib/QtCore.framework/Headers/QString
 qstring.h
 /usr/local/Cellar/qt/4.8.6/lib/QtCore.framework/Headers/qstring.h
-
-/usr/local/Cellar/qt/4.8.6/lib/QtCore.framework/Headers/QTextStream
-qtextstream.h
-/usr/local/Cellar/qt/4.8.6/lib/QtCore.framework/Headers/qtextstream.h
 
 /usr/local/Cellar/qt/4.8.6/lib/QtCore.framework/Headers/QVector
 qvector.h
@@ -4010,16 +3996,6 @@ QtCore/qvector.h
 QtCore/qset.h
 -
 QtCore/qcontiguouscache.h
--
-
-/usr/local/Cellar/qt/4.8.6/lib/QtCore.framework/Headers/qfile.h
-QtCore/qiodevice.h
--
-QtCore/qstring.h
--
-stdio.h
--
-f32file.h
 -
 
 /usr/local/Cellar/qt/4.8.6/lib/QtCore.framework/Headers/qglobal.h
@@ -4108,22 +4084,6 @@ string
 stdarg.h
 -
 QtCore/qstringbuilder.h
--
-
-/usr/local/Cellar/qt/4.8.6/lib/QtCore.framework/Headers/qtextstream.h
-QtCore/qiodevice.h
--
-QtCore/qstring.h
--
-QtCore/qchar.h
--
-QtCore/qlocale.h
--
-QtCore/qscopedpointer.h
--
-QtCore/qtextcodec.h
--
-stdio.h
 -
 
 /usr/local/Cellar/qt/4.8.6/lib/QtCore.framework/Headers/qvector.h

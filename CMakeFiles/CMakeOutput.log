@@ -730,3 +730,111 @@ int main(int argc, char** argv)
 #endif
 }
 
+Determining if the Q_WS_MAC exist passed with the following output:
+Change Dir: /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2279330343/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec2279330343.dir/build.make CMakeFiles/cmTryCompileExec2279330343.dir/build
+/usr/local/Cellar/cmake/3.1.1/bin/cmake -E cmake_progress_report /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2279330343.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/local/Cellar/qt/4.8.6/include -F/usr/local/Cellar/qt/4.8.6/lib    -o CMakeFiles/cmTryCompileExec2279330343.dir/CheckSymbolExists.cxx.o -c /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTryCompileExec2279330343
+/usr/local/Cellar/cmake/3.1.1/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2279330343.dir/link.txt --verbose=1
+/usr/bin/c++     -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec2279330343.dir/CheckSymbolExists.cxx.o  -o cmTryCompileExec2279330343  
+
+File /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the QT_MAC_USE_COCOA exist passed with the following output:
+Change Dir: /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2218244917/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec2218244917.dir/build.make CMakeFiles/cmTryCompileExec2218244917.dir/build
+/usr/local/Cellar/cmake/3.1.1/bin/cmake -E cmake_progress_report /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2218244917.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/local/Cellar/qt/4.8.6/include -F/usr/local/Cellar/qt/4.8.6/lib    -o CMakeFiles/cmTryCompileExec2218244917.dir/CheckSymbolExists.cxx.o -c /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTryCompileExec2218244917
+/usr/local/Cellar/cmake/3.1.1/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2218244917.dir/link.txt --verbose=1
+/usr/bin/c++     -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec2218244917.dir/CheckSymbolExists.cxx.o  -o cmTryCompileExec2218244917  
+
+File /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qconfig.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef QT_MAC_USE_COCOA
+  return ((int*)(&QT_MAC_USE_COCOA))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_MAC exist passed with the following output:
+Change Dir: /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2727817535/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec2727817535.dir/build.make CMakeFiles/cmTryCompileExec2727817535.dir/build
+/usr/local/Cellar/cmake/3.1.1/bin/cmake -E cmake_progress_report /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2727817535.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/local/Cellar/qt/4.8.6/include -F/usr/local/Cellar/qt/4.8.6/lib    -o CMakeFiles/cmTryCompileExec2727817535.dir/CheckSymbolExists.cxx.o -c /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTryCompileExec2727817535
+/usr/local/Cellar/cmake/3.1.1/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2727817535.dir/link.txt --verbose=1
+/usr/bin/c++     -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec2727817535.dir/CheckSymbolExists.cxx.o  -o cmTryCompileExec2727817535  
+
+File /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the QT_MAC_USE_COCOA exist passed with the following output:
+Change Dir: /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1699510952/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec1699510952.dir/build.make CMakeFiles/cmTryCompileExec1699510952.dir/build
+/usr/local/Cellar/cmake/3.1.1/bin/cmake -E cmake_progress_report /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1699510952.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/local/Cellar/qt/4.8.6/include -F/usr/local/Cellar/qt/4.8.6/lib    -o CMakeFiles/cmTryCompileExec1699510952.dir/CheckSymbolExists.cxx.o -c /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTryCompileExec1699510952
+/usr/local/Cellar/cmake/3.1.1/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1699510952.dir/link.txt --verbose=1
+/usr/bin/c++     -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTryCompileExec1699510952.dir/CheckSymbolExists.cxx.o  -o cmTryCompileExec1699510952  
+
+File /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qconfig.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef QT_MAC_USE_COCOA
+  return ((int*)(&QT_MAC_USE_COCOA))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+

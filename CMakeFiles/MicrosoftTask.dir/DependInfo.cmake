@@ -22,6 +22,7 @@ set(CMAKE_TARGET_DEFINITIONS
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
+  "/Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/svm_rank_lib.dir/DependInfo.cmake"
   )
 
 # The include file search paths:

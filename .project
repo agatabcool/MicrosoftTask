@@ -119,6 +119,81 @@
 			<locationURI>virtual:/virtual</locationURI>
 		</link>
 		<link>
+			<name>[Targets]/[lib] svm_rank_lib</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] svm_rank_lib/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] svm_rank_lib/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] svm_rank_lib/Source Files/svm_learn.c</name>
+			<type>1</type>
+			<location>/Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_light/svm_learn.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] svm_rank_lib/Source Files/svm_common.c</name>
+			<type>1</type>
+			<location>/Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_light/svm_common.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] svm_rank_lib/Source Files/svm_hideo.c</name>
+			<type>1</type>
+			<location>/Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_light/svm_hideo.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] svm_rank_lib/Source Files/svm_struct_learn.c</name>
+			<type>1</type>
+			<location>/Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_struct/svm_struct_learn.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] svm_rank_lib/Source Files/svm_struct_common.c</name>
+			<type>1</type>
+			<location>/Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_struct/svm_struct_common.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] svm_rank_lib/Source Files/svm_struct_api.c</name>
+			<type>1</type>
+			<location>/Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_struct_api.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] svm_rank_lib/Source Files/svm_struct_learn_custom.c</name>
+			<type>1</type>
+			<location>/Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_struct_learn_custom.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] svm_rank_lib/Source Files/svm_rank_lib_automoc.cpp</name>
+			<type>1</type>
+			<location>/Users/agata/Desktop/CodingProjects/MicrosoftTask/svm_rank_lib_automoc.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] svm_rank_lib/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] svm_rank_lib/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] svm_rank_lib/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] svm_rank_lib/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
 			<name>[Targets]/[exe] MicrosoftTask</name>
 			<type>2</type>
 			<locationURI>virtual:/virtual</locationURI>

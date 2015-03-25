@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "svm_rank_lib_automoc.cpp"
   "MicrosoftTask_automoc.cpp"
   "CMakeFiles/MicrosoftTask.dir/src/main.cpp.o"
   "CMakeFiles/MicrosoftTask.dir/src/MainWindow.cpp.o"

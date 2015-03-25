@@ -608,7 +608,6 @@ CMakeFiles/MicrosoftTask.dir/src/MainWindow.cpp.o
  /usr/local/Cellar/qt/4.8.6/lib/QtCore.framework/Headers/QCache
  /usr/local/Cellar/qt/4.8.6/lib/QtCore.framework/Headers/QDateTime
  /usr/local/Cellar/qt/4.8.6/lib/QtCore.framework/Headers/QDebug
- /usr/local/Cellar/qt/4.8.6/lib/QtCore.framework/Headers/QFile
  /usr/local/Cellar/qt/4.8.6/lib/QtCore.framework/Headers/QFlags
  /usr/local/Cellar/qt/4.8.6/lib/QtCore.framework/Headers/QMargins
  /usr/local/Cellar/qt/4.8.6/lib/QtCore.framework/Headers/QMultiMap
@@ -617,14 +616,10 @@ CMakeFiles/MicrosoftTask.dir/src/MainWindow.cpp.o
  /usr/local/Cellar/qt/4.8.6/lib/QtCore.framework/Headers/QSignalMapper
  /usr/local/Cellar/qt/4.8.6/lib/QtCore.framework/Headers/QStack
  /usr/local/Cellar/qt/4.8.6/lib/QtCore.framework/Headers/QString
- /usr/local/Cellar/qt/4.8.6/lib/QtCore.framework/Headers/QTextStream
  /usr/local/Cellar/qt/4.8.6/lib/QtCore.framework/Headers/QVector
- /usr/local/Cellar/qt/4.8.6/lib/QtCore.framework/Headers/qdebug.h
- /usr/local/Cellar/qt/4.8.6/lib/QtCore.framework/Headers/qfile.h
  /usr/local/Cellar/qt/4.8.6/lib/QtCore.framework/Headers/qmath.h
  /usr/local/Cellar/qt/4.8.6/lib/QtCore.framework/Headers/qnumeric.h
  /usr/local/Cellar/qt/4.8.6/lib/QtCore.framework/Headers/qsignalmapper.h
- /usr/local/Cellar/qt/4.8.6/lib/QtCore.framework/Headers/qtextstream.h
 CMakeFiles/MicrosoftTask.dir/src/main.cpp.o
  /Users/agata/Desktop/CodingProjects/MicrosoftTask/src/MainWindow.h
  /Users/agata/Desktop/CodingProjects/MicrosoftTask/src/main.cpp

@@ -128,6 +128,32 @@ MicrosoftTask_automoc/fast:
 	$(MAKE) -f CMakeFiles/MicrosoftTask_automoc.dir/build.make CMakeFiles/MicrosoftTask_automoc.dir/build
 .PHONY : MicrosoftTask_automoc/fast
 
+#=============================================================================
+# Target rules for targets named svm_rank_lib
+
+# Build rule for target.
+svm_rank_lib: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 svm_rank_lib
+.PHONY : svm_rank_lib
+
+# fast build rule for target.
+svm_rank_lib/fast:
+	$(MAKE) -f CMakeFiles/svm_rank_lib.dir/build.make CMakeFiles/svm_rank_lib.dir/build
+.PHONY : svm_rank_lib/fast
+
+#=============================================================================
+# Target rules for targets named svm_rank_lib_automoc
+
+# Build rule for target.
+svm_rank_lib_automoc: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 svm_rank_lib_automoc
+.PHONY : svm_rank_lib_automoc
+
+# fast build rule for target.
+svm_rank_lib_automoc/fast:
+	$(MAKE) -f CMakeFiles/svm_rank_lib_automoc.dir/build.make CMakeFiles/svm_rank_lib_automoc.dir/build
+.PHONY : svm_rank_lib_automoc/fast
+
 MicrosoftTask_automoc.o: MicrosoftTask_automoc.cpp.o
 .PHONY : MicrosoftTask_automoc.o
 
@@ -151,6 +177,174 @@ MicrosoftTask_automoc.s: MicrosoftTask_automoc.cpp.s
 MicrosoftTask_automoc.cpp.s:
 	$(MAKE) -f CMakeFiles/MicrosoftTask.dir/build.make CMakeFiles/MicrosoftTask.dir/MicrosoftTask_automoc.cpp.s
 .PHONY : MicrosoftTask_automoc.cpp.s
+
+Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_light/svm_common.o: Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_light/svm_common.c.o
+.PHONY : Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_light/svm_common.o
+
+# target to build an object file
+Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_light/svm_common.c.o:
+	$(MAKE) -f CMakeFiles/svm_rank_lib.dir/build.make CMakeFiles/svm_rank_lib.dir/Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_light/svm_common.c.o
+.PHONY : Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_light/svm_common.c.o
+
+Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_light/svm_common.i: Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_light/svm_common.c.i
+.PHONY : Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_light/svm_common.i
+
+# target to preprocess a source file
+Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_light/svm_common.c.i:
+	$(MAKE) -f CMakeFiles/svm_rank_lib.dir/build.make CMakeFiles/svm_rank_lib.dir/Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_light/svm_common.c.i
+.PHONY : Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_light/svm_common.c.i
+
+Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_light/svm_common.s: Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_light/svm_common.c.s
+.PHONY : Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_light/svm_common.s
+
+# target to generate assembly for a file
+Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_light/svm_common.c.s:
+	$(MAKE) -f CMakeFiles/svm_rank_lib.dir/build.make CMakeFiles/svm_rank_lib.dir/Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_light/svm_common.c.s
+.PHONY : Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_light/svm_common.c.s
+
+Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_light/svm_hideo.o: Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_light/svm_hideo.c.o
+.PHONY : Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_light/svm_hideo.o
+
+# target to build an object file
+Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_light/svm_hideo.c.o:
+	$(MAKE) -f CMakeFiles/svm_rank_lib.dir/build.make CMakeFiles/svm_rank_lib.dir/Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_light/svm_hideo.c.o
+.PHONY : Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_light/svm_hideo.c.o
+
+Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_light/svm_hideo.i: Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_light/svm_hideo.c.i
+.PHONY : Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_light/svm_hideo.i
+
+# target to preprocess a source file
+Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_light/svm_hideo.c.i:
+	$(MAKE) -f CMakeFiles/svm_rank_lib.dir/build.make CMakeFiles/svm_rank_lib.dir/Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_light/svm_hideo.c.i
+.PHONY : Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_light/svm_hideo.c.i
+
+Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_light/svm_hideo.s: Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_light/svm_hideo.c.s
+.PHONY : Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_light/svm_hideo.s
+
+# target to generate assembly for a file
+Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_light/svm_hideo.c.s:
+	$(MAKE) -f CMakeFiles/svm_rank_lib.dir/build.make CMakeFiles/svm_rank_lib.dir/Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_light/svm_hideo.c.s
+.PHONY : Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_light/svm_hideo.c.s
+
+Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_light/svm_learn.o: Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_light/svm_learn.c.o
+.PHONY : Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_light/svm_learn.o
+
+# target to build an object file
+Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_light/svm_learn.c.o:
+	$(MAKE) -f CMakeFiles/svm_rank_lib.dir/build.make CMakeFiles/svm_rank_lib.dir/Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_light/svm_learn.c.o
+.PHONY : Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_light/svm_learn.c.o
+
+Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_light/svm_learn.i: Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_light/svm_learn.c.i
+.PHONY : Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_light/svm_learn.i
+
+# target to preprocess a source file
+Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_light/svm_learn.c.i:
+	$(MAKE) -f CMakeFiles/svm_rank_lib.dir/build.make CMakeFiles/svm_rank_lib.dir/Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_light/svm_learn.c.i
+.PHONY : Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_light/svm_learn.c.i
+
+Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_light/svm_learn.s: Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_light/svm_learn.c.s
+.PHONY : Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_light/svm_learn.s
+
+# target to generate assembly for a file
+Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_light/svm_learn.c.s:
+	$(MAKE) -f CMakeFiles/svm_rank_lib.dir/build.make CMakeFiles/svm_rank_lib.dir/Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_light/svm_learn.c.s
+.PHONY : Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_light/svm_learn.c.s
+
+Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_struct/svm_struct_common.o: Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_struct/svm_struct_common.c.o
+.PHONY : Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_struct/svm_struct_common.o
+
+# target to build an object file
+Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_struct/svm_struct_common.c.o:
+	$(MAKE) -f CMakeFiles/svm_rank_lib.dir/build.make CMakeFiles/svm_rank_lib.dir/Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_struct/svm_struct_common.c.o
+.PHONY : Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_struct/svm_struct_common.c.o
+
+Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_struct/svm_struct_common.i: Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_struct/svm_struct_common.c.i
+.PHONY : Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_struct/svm_struct_common.i
+
+# target to preprocess a source file
+Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_struct/svm_struct_common.c.i:
+	$(MAKE) -f CMakeFiles/svm_rank_lib.dir/build.make CMakeFiles/svm_rank_lib.dir/Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_struct/svm_struct_common.c.i
+.PHONY : Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_struct/svm_struct_common.c.i
+
+Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_struct/svm_struct_common.s: Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_struct/svm_struct_common.c.s
+.PHONY : Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_struct/svm_struct_common.s
+
+# target to generate assembly for a file
+Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_struct/svm_struct_common.c.s:
+	$(MAKE) -f CMakeFiles/svm_rank_lib.dir/build.make CMakeFiles/svm_rank_lib.dir/Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_struct/svm_struct_common.c.s
+.PHONY : Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_struct/svm_struct_common.c.s
+
+Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_struct/svm_struct_learn.o: Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_struct/svm_struct_learn.c.o
+.PHONY : Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_struct/svm_struct_learn.o
+
+# target to build an object file
+Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_struct/svm_struct_learn.c.o:
+	$(MAKE) -f CMakeFiles/svm_rank_lib.dir/build.make CMakeFiles/svm_rank_lib.dir/Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_struct/svm_struct_learn.c.o
+.PHONY : Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_struct/svm_struct_learn.c.o
+
+Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_struct/svm_struct_learn.i: Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_struct/svm_struct_learn.c.i
+.PHONY : Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_struct/svm_struct_learn.i
+
+# target to preprocess a source file
+Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_struct/svm_struct_learn.c.i:
+	$(MAKE) -f CMakeFiles/svm_rank_lib.dir/build.make CMakeFiles/svm_rank_lib.dir/Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_struct/svm_struct_learn.c.i
+.PHONY : Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_struct/svm_struct_learn.c.i
+
+Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_struct/svm_struct_learn.s: Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_struct/svm_struct_learn.c.s
+.PHONY : Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_struct/svm_struct_learn.s
+
+# target to generate assembly for a file
+Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_struct/svm_struct_learn.c.s:
+	$(MAKE) -f CMakeFiles/svm_rank_lib.dir/build.make CMakeFiles/svm_rank_lib.dir/Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_struct/svm_struct_learn.c.s
+.PHONY : Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_struct/svm_struct_learn.c.s
+
+Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_struct_api.o: Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_struct_api.c.o
+.PHONY : Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_struct_api.o
+
+# target to build an object file
+Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_struct_api.c.o:
+	$(MAKE) -f CMakeFiles/svm_rank_lib.dir/build.make CMakeFiles/svm_rank_lib.dir/Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_struct_api.c.o
+.PHONY : Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_struct_api.c.o
+
+Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_struct_api.i: Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_struct_api.c.i
+.PHONY : Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_struct_api.i
+
+# target to preprocess a source file
+Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_struct_api.c.i:
+	$(MAKE) -f CMakeFiles/svm_rank_lib.dir/build.make CMakeFiles/svm_rank_lib.dir/Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_struct_api.c.i
+.PHONY : Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_struct_api.c.i
+
+Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_struct_api.s: Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_struct_api.c.s
+.PHONY : Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_struct_api.s
+
+# target to generate assembly for a file
+Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_struct_api.c.s:
+	$(MAKE) -f CMakeFiles/svm_rank_lib.dir/build.make CMakeFiles/svm_rank_lib.dir/Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_struct_api.c.s
+.PHONY : Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_struct_api.c.s
+
+Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_struct_learn_custom.o: Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_struct_learn_custom.c.o
+.PHONY : Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_struct_learn_custom.o
+
+# target to build an object file
+Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_struct_learn_custom.c.o:
+	$(MAKE) -f CMakeFiles/svm_rank_lib.dir/build.make CMakeFiles/svm_rank_lib.dir/Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_struct_learn_custom.c.o
+.PHONY : Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_struct_learn_custom.c.o
+
+Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_struct_learn_custom.i: Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_struct_learn_custom.c.i
+.PHONY : Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_struct_learn_custom.i
+
+# target to preprocess a source file
+Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_struct_learn_custom.c.i:
+	$(MAKE) -f CMakeFiles/svm_rank_lib.dir/build.make CMakeFiles/svm_rank_lib.dir/Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_struct_learn_custom.c.i
+.PHONY : Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_struct_learn_custom.c.i
+
+Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_struct_learn_custom.s: Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_struct_learn_custom.c.s
+.PHONY : Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_struct_learn_custom.s
+
+# target to generate assembly for a file
+Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_struct_learn_custom.c.s:
+	$(MAKE) -f CMakeFiles/svm_rank_lib.dir/build.make CMakeFiles/svm_rank_lib.dir/Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_struct_learn_custom.c.s
+.PHONY : Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_struct_learn_custom.c.s
 
 src/MainWindow.o: src/MainWindow.cpp.o
 .PHONY : src/MainWindow.o
@@ -272,12 +466,38 @@ src/qcustomplot.cpp.s:
 	$(MAKE) -f CMakeFiles/MicrosoftTask.dir/build.make CMakeFiles/MicrosoftTask.dir/src/qcustomplot.cpp.s
 .PHONY : src/qcustomplot.cpp.s
 
+svm_rank_lib_automoc.o: svm_rank_lib_automoc.cpp.o
+.PHONY : svm_rank_lib_automoc.o
+
+# target to build an object file
+svm_rank_lib_automoc.cpp.o:
+	$(MAKE) -f CMakeFiles/svm_rank_lib.dir/build.make CMakeFiles/svm_rank_lib.dir/svm_rank_lib_automoc.cpp.o
+.PHONY : svm_rank_lib_automoc.cpp.o
+
+svm_rank_lib_automoc.i: svm_rank_lib_automoc.cpp.i
+.PHONY : svm_rank_lib_automoc.i
+
+# target to preprocess a source file
+svm_rank_lib_automoc.cpp.i:
+	$(MAKE) -f CMakeFiles/svm_rank_lib.dir/build.make CMakeFiles/svm_rank_lib.dir/svm_rank_lib_automoc.cpp.i
+.PHONY : svm_rank_lib_automoc.cpp.i
+
+svm_rank_lib_automoc.s: svm_rank_lib_automoc.cpp.s
+.PHONY : svm_rank_lib_automoc.s
+
+# target to generate assembly for a file
+svm_rank_lib_automoc.cpp.s:
+	$(MAKE) -f CMakeFiles/svm_rank_lib.dir/build.make CMakeFiles/svm_rank_lib.dir/svm_rank_lib_automoc.cpp.s
+.PHONY : svm_rank_lib_automoc.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... svm_rank_lib_automoc"
+	@echo "... svm_rank_lib"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... MicrosoftTask"
@@ -285,6 +505,27 @@ help:
 	@echo "... MicrosoftTask_automoc.o"
 	@echo "... MicrosoftTask_automoc.i"
 	@echo "... MicrosoftTask_automoc.s"
+	@echo "... Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_light/svm_common.o"
+	@echo "... Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_light/svm_common.i"
+	@echo "... Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_light/svm_common.s"
+	@echo "... Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_light/svm_hideo.o"
+	@echo "... Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_light/svm_hideo.i"
+	@echo "... Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_light/svm_hideo.s"
+	@echo "... Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_light/svm_learn.o"
+	@echo "... Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_light/svm_learn.i"
+	@echo "... Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_light/svm_learn.s"
+	@echo "... Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_struct/svm_struct_common.o"
+	@echo "... Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_struct/svm_struct_common.i"
+	@echo "... Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_struct/svm_struct_common.s"
+	@echo "... Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_struct/svm_struct_learn.o"
+	@echo "... Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_struct/svm_struct_learn.i"
+	@echo "... Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_struct/svm_struct_learn.s"
+	@echo "... Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_struct_api.o"
+	@echo "... Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_struct_api.i"
+	@echo "... Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_struct_api.s"
+	@echo "... Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_struct_learn_custom.o"
+	@echo "... Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_struct_learn_custom.i"
+	@echo "... Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_struct_learn_custom.s"
 	@echo "... src/MainWindow.o"
 	@echo "... src/MainWindow.i"
 	@echo "... src/MainWindow.s"
@@ -300,6 +541,9 @@ help:
 	@echo "... src/qcustomplot.o"
 	@echo "... src/qcustomplot.i"
 	@echo "... src/qcustomplot.s"
+	@echo "... svm_rank_lib_automoc.o"
+	@echo "... svm_rank_lib_automoc.i"
+	@echo "... svm_rank_lib_automoc.s"
 .PHONY : help
 
 

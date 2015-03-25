@@ -57,12 +57,15 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
+  "CMakeFiles/svm_rank_lib_automoc.dir/AutogenInfo.cmake"
   "CMakeFiles/MicrosoftTask_automoc.dir/AutogenInfo.cmake"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/svm_rank_lib_automoc.dir/DependInfo.cmake"
+  "CMakeFiles/svm_rank_lib.dir/DependInfo.cmake"
   "CMakeFiles/MicrosoftTask.dir/DependInfo.cmake"
   "CMakeFiles/MicrosoftTask_automoc.dir/DependInfo.cmake"
   )

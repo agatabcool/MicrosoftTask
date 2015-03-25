@@ -5,22 +5,14 @@
 
 
 PreprocessData :: PreprocessData(){
-	//parsed_data= ParsedData();
-	//std::cout << "Constuctor for preprocessdata" <<std::endl;
 }
 
 
 void PreprocessData :: loadDataFile(std::string fn){
-	std::cout << "attempting to load file: " << fn<< std::endl;
 	std::ifstream file(fn);
 	std::cout << "file loaded" << std::endl;
 
-
 	std::string str;
-	std::vector< std::string > file_contents;
-
-
-	std::string buf;
 
 	while (std::getline(file, str))
 	{
@@ -55,14 +47,8 @@ void PreprocessData :: parse_line(std::string str){
 	strs.pop_back();
 
 	//Parse features
-	//for(std::vector<int>::iterator it = strs.begin() ; it != strs.end(); ++it){
-	//std::reverse(strs.begin(), strs.end());
 	parse_features(strs);
-	//	strs.pop_back();
-	//}
 
-	//std::cout << strs.back() << std::endl;
-	//printstrs(strs);
 }
 
 void PreprocessData ::printstrs(std::vector<std::string> strs){
@@ -80,12 +66,7 @@ void PreprocessData ::parse_qid(std::string qidstr){
 void PreprocessData ::parse_docid(std::string docidstr){
 	std::vector<std::string> strs;
 	boost::split(strs,docidstr,boost::is_any_of("="),boost::token_compress_on);
-	//std::cout << "file parse_docid "<< strs.back() <<std::endl;
-	//parsed_data.docid.push_back("j");
-	//std::cout << "file parse_docid "<< strs.back() <<std::endl;
-	//parsed_data.docid.push_back("j");
 	parsed_data.docid.push_back(strs.back());
-	//std::cout << "file parse_docid pUshed" <<std::endl;
 }
 
 void PreprocessData ::parse_features(std::vector<std::string> strs){
@@ -104,7 +85,6 @@ void PreprocessData ::parse_features(std::vector<std::string> strs){
 }
 
 void PreprocessData::get_stats(){
-	std::cout << "getting stats " <<std::endl;
 
 	//Number of total queries
 	parsed_data.data_stats.num_queries = parsed_data.relev.size();
@@ -140,7 +120,6 @@ void PreprocessData::get_stats(){
 		i++;
 	}
 
-	//std::vector<int> rel_per_query;
 	for (std::vector<std::string>::iterator it = temp_qid.begin() ; it != temp_qid.end(); ++it){
 		int mycount = std::count (temp_qid.begin(), temp_qid.end(), *it);
 		parsed_data.data_stats.rel_per_query.push_back(mycount);

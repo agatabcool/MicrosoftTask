@@ -607,7 +607,6 @@ CMakeFiles/MicrosoftTask.dir/src/MainWindow.cpp.o: /usr/local/Cellar/qt/4.8.6/in
 CMakeFiles/MicrosoftTask.dir/src/MainWindow.cpp.o: /usr/local/Cellar/qt/4.8.6/lib/QtCore.framework/Headers/QCache
 CMakeFiles/MicrosoftTask.dir/src/MainWindow.cpp.o: /usr/local/Cellar/qt/4.8.6/lib/QtCore.framework/Headers/QDateTime
 CMakeFiles/MicrosoftTask.dir/src/MainWindow.cpp.o: /usr/local/Cellar/qt/4.8.6/lib/QtCore.framework/Headers/QDebug
-CMakeFiles/MicrosoftTask.dir/src/MainWindow.cpp.o: /usr/local/Cellar/qt/4.8.6/lib/QtCore.framework/Headers/QFile
 CMakeFiles/MicrosoftTask.dir/src/MainWindow.cpp.o: /usr/local/Cellar/qt/4.8.6/lib/QtCore.framework/Headers/QFlags
 CMakeFiles/MicrosoftTask.dir/src/MainWindow.cpp.o: /usr/local/Cellar/qt/4.8.6/lib/QtCore.framework/Headers/QMargins
 CMakeFiles/MicrosoftTask.dir/src/MainWindow.cpp.o: /usr/local/Cellar/qt/4.8.6/lib/QtCore.framework/Headers/QMultiMap
@@ -616,14 +615,10 @@ CMakeFiles/MicrosoftTask.dir/src/MainWindow.cpp.o: /usr/local/Cellar/qt/4.8.6/li
 CMakeFiles/MicrosoftTask.dir/src/MainWindow.cpp.o: /usr/local/Cellar/qt/4.8.6/lib/QtCore.framework/Headers/QSignalMapper
 CMakeFiles/MicrosoftTask.dir/src/MainWindow.cpp.o: /usr/local/Cellar/qt/4.8.6/lib/QtCore.framework/Headers/QStack
 CMakeFiles/MicrosoftTask.dir/src/MainWindow.cpp.o: /usr/local/Cellar/qt/4.8.6/lib/QtCore.framework/Headers/QString
-CMakeFiles/MicrosoftTask.dir/src/MainWindow.cpp.o: /usr/local/Cellar/qt/4.8.6/lib/QtCore.framework/Headers/QTextStream
 CMakeFiles/MicrosoftTask.dir/src/MainWindow.cpp.o: /usr/local/Cellar/qt/4.8.6/lib/QtCore.framework/Headers/QVector
-CMakeFiles/MicrosoftTask.dir/src/MainWindow.cpp.o: /usr/local/Cellar/qt/4.8.6/lib/QtCore.framework/Headers/qdebug.h
-CMakeFiles/MicrosoftTask.dir/src/MainWindow.cpp.o: /usr/local/Cellar/qt/4.8.6/lib/QtCore.framework/Headers/qfile.h
 CMakeFiles/MicrosoftTask.dir/src/MainWindow.cpp.o: /usr/local/Cellar/qt/4.8.6/lib/QtCore.framework/Headers/qmath.h
 CMakeFiles/MicrosoftTask.dir/src/MainWindow.cpp.o: /usr/local/Cellar/qt/4.8.6/lib/QtCore.framework/Headers/qnumeric.h
 CMakeFiles/MicrosoftTask.dir/src/MainWindow.cpp.o: /usr/local/Cellar/qt/4.8.6/lib/QtCore.framework/Headers/qsignalmapper.h
-CMakeFiles/MicrosoftTask.dir/src/MainWindow.cpp.o: /usr/local/Cellar/qt/4.8.6/lib/QtCore.framework/Headers/qtextstream.h
 
 CMakeFiles/MicrosoftTask.dir/src/main.cpp.o: src/MainWindow.h
 CMakeFiles/MicrosoftTask.dir/src/main.cpp.o: src/main.cpp

@@ -210,6 +210,7 @@ MicrosoftTask: /usr/local/lib/libboost_system-mt.dylib
 MicrosoftTask: /usr/local/lib/libboost_filesystem-mt.dylib
 MicrosoftTask: /usr/local/lib/libboost_filesystem-mt.dylib
 MicrosoftTask: /usr/local/lib/libboost_system-mt.dylib
+MicrosoftTask: libsvm_rank_lib.a
 MicrosoftTask: CMakeFiles/MicrosoftTask.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable MicrosoftTask"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/MicrosoftTask.dir/link.txt --verbose=$(VERBOSE)

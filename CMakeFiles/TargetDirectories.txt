@@ -1,2 +1,4 @@
+/Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/svm_rank_lib_automoc.dir
+/Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/svm_rank_lib.dir
 /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/MicrosoftTask.dir
 /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/MicrosoftTask_automoc.dir
