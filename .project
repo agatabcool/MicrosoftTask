@@ -136,17 +136,27 @@
 		<link>
 			<name>[Targets]/[exe] MicrosoftTask/Source Files/main.cpp</name>
 			<type>1</type>
-			<location>/Users/agata/Desktop/CodingProjects/MicrosoftTask/main.cpp</location>
+			<location>/Users/agata/Desktop/CodingProjects/MicrosoftTask/src/main.cpp</location>
 		</link>
 		<link>
 			<name>[Targets]/[exe] MicrosoftTask/Source Files/MainWindow.cpp</name>
 			<type>1</type>
-			<location>/Users/agata/Desktop/CodingProjects/MicrosoftTask/MainWindow.cpp</location>
+			<location>/Users/agata/Desktop/CodingProjects/MicrosoftTask/src/MainWindow.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] MicrosoftTask/Source Files/processdata.cpp</name>
+			<type>1</type>
+			<location>/Users/agata/Desktop/CodingProjects/MicrosoftTask/src/processdata.cpp</location>
 		</link>
 		<link>
 			<name>[Targets]/[exe] MicrosoftTask/Source Files/preprocessdata.cpp</name>
 			<type>1</type>
-			<location>/Users/agata/Desktop/CodingProjects/MicrosoftTask/preprocessdata.cpp</location>
+			<location>/Users/agata/Desktop/CodingProjects/MicrosoftTask/src/preprocessdata.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] MicrosoftTask/Source Files/qcustomplot.cpp</name>
+			<type>1</type>
+			<location>/Users/agata/Desktop/CodingProjects/MicrosoftTask/src/qcustomplot.cpp</location>
 		</link>
 		<link>
 			<name>[Targets]/[exe] MicrosoftTask/Source Files/MicrosoftTask_automoc.cpp</name>

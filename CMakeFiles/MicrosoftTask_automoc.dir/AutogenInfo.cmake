@@ -1,4 +1,4 @@
-set(AM_SOURCES "/Users/agata/Desktop/CodingProjects/MicrosoftTask/main.cpp;/Users/agata/Desktop/CodingProjects/MicrosoftTask/MainWindow.cpp;/Users/agata/Desktop/CodingProjects/MicrosoftTask/preprocessdata.cpp" )
+set(AM_SOURCES "/Users/agata/Desktop/CodingProjects/MicrosoftTask/src/main.cpp;/Users/agata/Desktop/CodingProjects/MicrosoftTask/src/MainWindow.cpp;/Users/agata/Desktop/CodingProjects/MicrosoftTask/src/processdata.cpp;/Users/agata/Desktop/CodingProjects/MicrosoftTask/src/preprocessdata.cpp;/Users/agata/Desktop/CodingProjects/MicrosoftTask/src/qcustomplot.cpp" )
 set(AM_RCC_SOURCES  )
 set(AM_SKIP_MOC "" )
 set(AM_SKIP_UIC  )

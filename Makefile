@@ -128,30 +128,6 @@ MicrosoftTask_automoc/fast:
 	$(MAKE) -f CMakeFiles/MicrosoftTask_automoc.dir/build.make CMakeFiles/MicrosoftTask_automoc.dir/build
 .PHONY : MicrosoftTask_automoc/fast
 
-MainWindow.o: MainWindow.cpp.o
-.PHONY : MainWindow.o
-
-# target to build an object file
-MainWindow.cpp.o:
-	$(MAKE) -f CMakeFiles/MicrosoftTask.dir/build.make CMakeFiles/MicrosoftTask.dir/MainWindow.cpp.o
-.PHONY : MainWindow.cpp.o
-
-MainWindow.i: MainWindow.cpp.i
-.PHONY : MainWindow.i
-
-# target to preprocess a source file
-MainWindow.cpp.i:
-	$(MAKE) -f CMakeFiles/MicrosoftTask.dir/build.make CMakeFiles/MicrosoftTask.dir/MainWindow.cpp.i
-.PHONY : MainWindow.cpp.i
-
-MainWindow.s: MainWindow.cpp.s
-.PHONY : MainWindow.s
-
-# target to generate assembly for a file
-MainWindow.cpp.s:
-	$(MAKE) -f CMakeFiles/MicrosoftTask.dir/build.make CMakeFiles/MicrosoftTask.dir/MainWindow.cpp.s
-.PHONY : MainWindow.cpp.s
-
 MicrosoftTask_automoc.o: MicrosoftTask_automoc.cpp.o
 .PHONY : MicrosoftTask_automoc.o
 
@@ -176,53 +152,125 @@ MicrosoftTask_automoc.cpp.s:
 	$(MAKE) -f CMakeFiles/MicrosoftTask.dir/build.make CMakeFiles/MicrosoftTask.dir/MicrosoftTask_automoc.cpp.s
 .PHONY : MicrosoftTask_automoc.cpp.s
 
-main.o: main.cpp.o
-.PHONY : main.o
+src/MainWindow.o: src/MainWindow.cpp.o
+.PHONY : src/MainWindow.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/MicrosoftTask.dir/build.make CMakeFiles/MicrosoftTask.dir/main.cpp.o
-.PHONY : main.cpp.o
+src/MainWindow.cpp.o:
+	$(MAKE) -f CMakeFiles/MicrosoftTask.dir/build.make CMakeFiles/MicrosoftTask.dir/src/MainWindow.cpp.o
+.PHONY : src/MainWindow.cpp.o
 
-main.i: main.cpp.i
-.PHONY : main.i
+src/MainWindow.i: src/MainWindow.cpp.i
+.PHONY : src/MainWindow.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/MicrosoftTask.dir/build.make CMakeFiles/MicrosoftTask.dir/main.cpp.i
-.PHONY : main.cpp.i
+src/MainWindow.cpp.i:
+	$(MAKE) -f CMakeFiles/MicrosoftTask.dir/build.make CMakeFiles/MicrosoftTask.dir/src/MainWindow.cpp.i
+.PHONY : src/MainWindow.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+src/MainWindow.s: src/MainWindow.cpp.s
+.PHONY : src/MainWindow.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/MicrosoftTask.dir/build.make CMakeFiles/MicrosoftTask.dir/main.cpp.s
-.PHONY : main.cpp.s
+src/MainWindow.cpp.s:
+	$(MAKE) -f CMakeFiles/MicrosoftTask.dir/build.make CMakeFiles/MicrosoftTask.dir/src/MainWindow.cpp.s
+.PHONY : src/MainWindow.cpp.s
 
-preprocessdata.o: preprocessdata.cpp.o
-.PHONY : preprocessdata.o
+src/main.o: src/main.cpp.o
+.PHONY : src/main.o
 
 # target to build an object file
-preprocessdata.cpp.o:
-	$(MAKE) -f CMakeFiles/MicrosoftTask.dir/build.make CMakeFiles/MicrosoftTask.dir/preprocessdata.cpp.o
-.PHONY : preprocessdata.cpp.o
+src/main.cpp.o:
+	$(MAKE) -f CMakeFiles/MicrosoftTask.dir/build.make CMakeFiles/MicrosoftTask.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
 
-preprocessdata.i: preprocessdata.cpp.i
-.PHONY : preprocessdata.i
+src/main.i: src/main.cpp.i
+.PHONY : src/main.i
 
 # target to preprocess a source file
-preprocessdata.cpp.i:
-	$(MAKE) -f CMakeFiles/MicrosoftTask.dir/build.make CMakeFiles/MicrosoftTask.dir/preprocessdata.cpp.i
-.PHONY : preprocessdata.cpp.i
+src/main.cpp.i:
+	$(MAKE) -f CMakeFiles/MicrosoftTask.dir/build.make CMakeFiles/MicrosoftTask.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
 
-preprocessdata.s: preprocessdata.cpp.s
-.PHONY : preprocessdata.s
+src/main.s: src/main.cpp.s
+.PHONY : src/main.s
 
 # target to generate assembly for a file
-preprocessdata.cpp.s:
-	$(MAKE) -f CMakeFiles/MicrosoftTask.dir/build.make CMakeFiles/MicrosoftTask.dir/preprocessdata.cpp.s
-.PHONY : preprocessdata.cpp.s
+src/main.cpp.s:
+	$(MAKE) -f CMakeFiles/MicrosoftTask.dir/build.make CMakeFiles/MicrosoftTask.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
+
+src/preprocessdata.o: src/preprocessdata.cpp.o
+.PHONY : src/preprocessdata.o
+
+# target to build an object file
+src/preprocessdata.cpp.o:
+	$(MAKE) -f CMakeFiles/MicrosoftTask.dir/build.make CMakeFiles/MicrosoftTask.dir/src/preprocessdata.cpp.o
+.PHONY : src/preprocessdata.cpp.o
+
+src/preprocessdata.i: src/preprocessdata.cpp.i
+.PHONY : src/preprocessdata.i
+
+# target to preprocess a source file
+src/preprocessdata.cpp.i:
+	$(MAKE) -f CMakeFiles/MicrosoftTask.dir/build.make CMakeFiles/MicrosoftTask.dir/src/preprocessdata.cpp.i
+.PHONY : src/preprocessdata.cpp.i
+
+src/preprocessdata.s: src/preprocessdata.cpp.s
+.PHONY : src/preprocessdata.s
+
+# target to generate assembly for a file
+src/preprocessdata.cpp.s:
+	$(MAKE) -f CMakeFiles/MicrosoftTask.dir/build.make CMakeFiles/MicrosoftTask.dir/src/preprocessdata.cpp.s
+.PHONY : src/preprocessdata.cpp.s
+
+src/processdata.o: src/processdata.cpp.o
+.PHONY : src/processdata.o
+
+# target to build an object file
+src/processdata.cpp.o:
+	$(MAKE) -f CMakeFiles/MicrosoftTask.dir/build.make CMakeFiles/MicrosoftTask.dir/src/processdata.cpp.o
+.PHONY : src/processdata.cpp.o
+
+src/processdata.i: src/processdata.cpp.i
+.PHONY : src/processdata.i
+
+# target to preprocess a source file
+src/processdata.cpp.i:
+	$(MAKE) -f CMakeFiles/MicrosoftTask.dir/build.make CMakeFiles/MicrosoftTask.dir/src/processdata.cpp.i
+.PHONY : src/processdata.cpp.i
+
+src/processdata.s: src/processdata.cpp.s
+.PHONY : src/processdata.s
+
+# target to generate assembly for a file
+src/processdata.cpp.s:
+	$(MAKE) -f CMakeFiles/MicrosoftTask.dir/build.make CMakeFiles/MicrosoftTask.dir/src/processdata.cpp.s
+.PHONY : src/processdata.cpp.s
+
+src/qcustomplot.o: src/qcustomplot.cpp.o
+.PHONY : src/qcustomplot.o
+
+# target to build an object file
+src/qcustomplot.cpp.o:
+	$(MAKE) -f CMakeFiles/MicrosoftTask.dir/build.make CMakeFiles/MicrosoftTask.dir/src/qcustomplot.cpp.o
+.PHONY : src/qcustomplot.cpp.o
+
+src/qcustomplot.i: src/qcustomplot.cpp.i
+.PHONY : src/qcustomplot.i
+
+# target to preprocess a source file
+src/qcustomplot.cpp.i:
+	$(MAKE) -f CMakeFiles/MicrosoftTask.dir/build.make CMakeFiles/MicrosoftTask.dir/src/qcustomplot.cpp.i
+.PHONY : src/qcustomplot.cpp.i
+
+src/qcustomplot.s: src/qcustomplot.cpp.s
+.PHONY : src/qcustomplot.s
+
+# target to generate assembly for a file
+src/qcustomplot.cpp.s:
+	$(MAKE) -f CMakeFiles/MicrosoftTask.dir/build.make CMakeFiles/MicrosoftTask.dir/src/qcustomplot.cpp.s
+.PHONY : src/qcustomplot.cpp.s
 
 # Help Target
 help:
@@ -234,18 +282,24 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... MicrosoftTask"
 	@echo "... MicrosoftTask_automoc"
-	@echo "... MainWindow.o"
-	@echo "... MainWindow.i"
-	@echo "... MainWindow.s"
 	@echo "... MicrosoftTask_automoc.o"
 	@echo "... MicrosoftTask_automoc.i"
 	@echo "... MicrosoftTask_automoc.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
-	@echo "... preprocessdata.o"
-	@echo "... preprocessdata.i"
-	@echo "... preprocessdata.s"
+	@echo "... src/MainWindow.o"
+	@echo "... src/MainWindow.i"
+	@echo "... src/MainWindow.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
+	@echo "... src/preprocessdata.o"
+	@echo "... src/preprocessdata.i"
+	@echo "... src/preprocessdata.s"
+	@echo "... src/processdata.o"
+	@echo "... src/processdata.i"
+	@echo "... src/processdata.s"
+	@echo "... src/qcustomplot.o"
+	@echo "... src/qcustomplot.i"
+	@echo "... src/qcustomplot.s"
 .PHONY : help
 
 

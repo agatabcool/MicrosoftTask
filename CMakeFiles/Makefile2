@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /Users/agata/Desktop/CodingProjects/MicrosoftTask
 CMakeFiles/MicrosoftTask.dir/all: CMakeFiles/MicrosoftTask_automoc.dir/all
 	$(MAKE) -f CMakeFiles/MicrosoftTask.dir/build.make CMakeFiles/MicrosoftTask.dir/depend
 	$(MAKE) -f CMakeFiles/MicrosoftTask.dir/build.make CMakeFiles/MicrosoftTask.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles  1 2 3 4
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles  1 2 3 4 5 6
 	@echo "Built target MicrosoftTask"
 .PHONY : CMakeFiles/MicrosoftTask.dir/all
 
@@ -69,7 +69,7 @@ all: CMakeFiles/MicrosoftTask.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/MicrosoftTask.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles 7
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/MicrosoftTask.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles 0
 .PHONY : CMakeFiles/MicrosoftTask.dir/rule
@@ -94,7 +94,7 @@ clean: CMakeFiles/MicrosoftTask.dir/clean
 CMakeFiles/MicrosoftTask_automoc.dir/all:
 	$(MAKE) -f CMakeFiles/MicrosoftTask_automoc.dir/build.make CMakeFiles/MicrosoftTask_automoc.dir/depend
 	$(MAKE) -f CMakeFiles/MicrosoftTask_automoc.dir/build.make CMakeFiles/MicrosoftTask_automoc.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles  5
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles  7
 	@echo "Built target MicrosoftTask_automoc"
 .PHONY : CMakeFiles/MicrosoftTask_automoc.dir/all
 

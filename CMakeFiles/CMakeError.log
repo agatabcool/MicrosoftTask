@@ -538,3 +538,363 @@ int main(int argc, char** argv)
 #endif
 }
 
+Determining if the Q_WS_X11 exist failed with the following output:
+Change Dir: /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec671668359/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec671668359.dir/build.make CMakeFiles/cmTryCompileExec671668359.dir/build
+/usr/local/Cellar/cmake/3.1.1/bin/cmake -E cmake_progress_report /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec671668359.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/local/Cellar/qt/4.8.6/include -F/usr/local/Cellar/qt/4.8.6/lib    -o CMakeFiles/cmTryCompileExec671668359.dir/CheckSymbolExists.cxx.o -c /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: use of undeclared identifier 'Q_WS_X11'
+  return ((int*)(&Q_WS_X11))[argc];
+                  ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTryCompileExec671668359.dir/CheckSymbolExists.cxx.o] Error 1
+make: *** [cmTryCompileExec671668359/fast] Error 2
+
+File /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_X11
+  return ((int*)(&Q_WS_X11))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_WIN exist failed with the following output:
+Change Dir: /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2778353148/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec2778353148.dir/build.make CMakeFiles/cmTryCompileExec2778353148.dir/build
+/usr/local/Cellar/cmake/3.1.1/bin/cmake -E cmake_progress_report /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2778353148.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/local/Cellar/qt/4.8.6/include -F/usr/local/Cellar/qt/4.8.6/lib    -o CMakeFiles/cmTryCompileExec2778353148.dir/CheckSymbolExists.cxx.o -c /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: use of undeclared identifier 'Q_WS_WIN'
+  return ((int*)(&Q_WS_WIN))[argc];
+                  ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTryCompileExec2778353148.dir/CheckSymbolExists.cxx.o] Error 1
+make: *** [cmTryCompileExec2778353148/fast] Error 2
+
+File /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_WIN
+  return ((int*)(&Q_WS_WIN))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1371892713/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec1371892713.dir/build.make CMakeFiles/cmTryCompileExec1371892713.dir/build
+/usr/local/Cellar/cmake/3.1.1/bin/cmake -E cmake_progress_report /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1371892713.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/local/Cellar/qt/4.8.6/include -F/usr/local/Cellar/qt/4.8.6/lib    -o CMakeFiles/cmTryCompileExec1371892713.dir/CheckSymbolExists.cxx.o -c /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: use of undeclared identifier 'Q_WS_QWS'
+  return ((int*)(&Q_WS_QWS))[argc];
+                  ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTryCompileExec1371892713.dir/CheckSymbolExists.cxx.o] Error 1
+make: *** [cmTryCompileExec1371892713/fast] Error 2
+
+File /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_X11 exist failed with the following output:
+Change Dir: /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1934573075/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec1934573075.dir/build.make CMakeFiles/cmTryCompileExec1934573075.dir/build
+/usr/local/Cellar/cmake/3.1.1/bin/cmake -E cmake_progress_report /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1934573075.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/local/Cellar/qt/4.8.6/include -F/usr/local/Cellar/qt/4.8.6/lib    -o CMakeFiles/cmTryCompileExec1934573075.dir/CheckSymbolExists.cxx.o -c /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: use of undeclared identifier 'Q_WS_X11'
+  return ((int*)(&Q_WS_X11))[argc];
+                  ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTryCompileExec1934573075.dir/CheckSymbolExists.cxx.o] Error 1
+make: *** [cmTryCompileExec1934573075/fast] Error 2
+
+File /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_X11
+  return ((int*)(&Q_WS_X11))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_WIN exist failed with the following output:
+Change Dir: /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1229225707/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec1229225707.dir/build.make CMakeFiles/cmTryCompileExec1229225707.dir/build
+/usr/local/Cellar/cmake/3.1.1/bin/cmake -E cmake_progress_report /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1229225707.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/local/Cellar/qt/4.8.6/include -F/usr/local/Cellar/qt/4.8.6/lib    -o CMakeFiles/cmTryCompileExec1229225707.dir/CheckSymbolExists.cxx.o -c /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: use of undeclared identifier 'Q_WS_WIN'
+  return ((int*)(&Q_WS_WIN))[argc];
+                  ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTryCompileExec1229225707.dir/CheckSymbolExists.cxx.o] Error 1
+make: *** [cmTryCompileExec1229225707/fast] Error 2
+
+File /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_WIN
+  return ((int*)(&Q_WS_WIN))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2699762464/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec2699762464.dir/build.make CMakeFiles/cmTryCompileExec2699762464.dir/build
+/usr/local/Cellar/cmake/3.1.1/bin/cmake -E cmake_progress_report /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2699762464.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/local/Cellar/qt/4.8.6/include -F/usr/local/Cellar/qt/4.8.6/lib    -o CMakeFiles/cmTryCompileExec2699762464.dir/CheckSymbolExists.cxx.o -c /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: use of undeclared identifier 'Q_WS_QWS'
+  return ((int*)(&Q_WS_QWS))[argc];
+                  ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTryCompileExec2699762464.dir/CheckSymbolExists.cxx.o] Error 1
+make: *** [cmTryCompileExec2699762464/fast] Error 2
+
+File /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_X11 exist failed with the following output:
+Change Dir: /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec264466267/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec264466267.dir/build.make CMakeFiles/cmTryCompileExec264466267.dir/build
+/usr/local/Cellar/cmake/3.1.1/bin/cmake -E cmake_progress_report /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec264466267.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/local/Cellar/qt/4.8.6/include -F/usr/local/Cellar/qt/4.8.6/lib    -o CMakeFiles/cmTryCompileExec264466267.dir/CheckSymbolExists.cxx.o -c /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: use of undeclared identifier 'Q_WS_X11'
+  return ((int*)(&Q_WS_X11))[argc];
+                  ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTryCompileExec264466267.dir/CheckSymbolExists.cxx.o] Error 1
+make: *** [cmTryCompileExec264466267/fast] Error 2
+
+File /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_X11
+  return ((int*)(&Q_WS_X11))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_WIN exist failed with the following output:
+Change Dir: /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1390382535/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec1390382535.dir/build.make CMakeFiles/cmTryCompileExec1390382535.dir/build
+/usr/local/Cellar/cmake/3.1.1/bin/cmake -E cmake_progress_report /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1390382535.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/local/Cellar/qt/4.8.6/include -F/usr/local/Cellar/qt/4.8.6/lib    -o CMakeFiles/cmTryCompileExec1390382535.dir/CheckSymbolExists.cxx.o -c /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: use of undeclared identifier 'Q_WS_WIN'
+  return ((int*)(&Q_WS_WIN))[argc];
+                  ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTryCompileExec1390382535.dir/CheckSymbolExists.cxx.o] Error 1
+make: *** [cmTryCompileExec1390382535/fast] Error 2
+
+File /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_WIN
+  return ((int*)(&Q_WS_WIN))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3308902449/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec3308902449.dir/build.make CMakeFiles/cmTryCompileExec3308902449.dir/build
+/usr/local/Cellar/cmake/3.1.1/bin/cmake -E cmake_progress_report /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3308902449.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/local/Cellar/qt/4.8.6/include -F/usr/local/Cellar/qt/4.8.6/lib    -o CMakeFiles/cmTryCompileExec3308902449.dir/CheckSymbolExists.cxx.o -c /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: use of undeclared identifier 'Q_WS_QWS'
+  return ((int*)(&Q_WS_QWS))[argc];
+                  ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTryCompileExec3308902449.dir/CheckSymbolExists.cxx.o] Error 1
+make: *** [cmTryCompileExec3308902449/fast] Error 2
+
+File /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_X11 exist failed with the following output:
+Change Dir: /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec249833951/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec249833951.dir/build.make CMakeFiles/cmTryCompileExec249833951.dir/build
+/usr/local/Cellar/cmake/3.1.1/bin/cmake -E cmake_progress_report /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec249833951.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/local/Cellar/qt/4.8.6/include -F/usr/local/Cellar/qt/4.8.6/lib    -o CMakeFiles/cmTryCompileExec249833951.dir/CheckSymbolExists.cxx.o -c /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: use of undeclared identifier 'Q_WS_X11'
+  return ((int*)(&Q_WS_X11))[argc];
+                  ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTryCompileExec249833951.dir/CheckSymbolExists.cxx.o] Error 1
+make: *** [cmTryCompileExec249833951/fast] Error 2
+
+File /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_X11
+  return ((int*)(&Q_WS_X11))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_WIN exist failed with the following output:
+Change Dir: /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4256229685/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec4256229685.dir/build.make CMakeFiles/cmTryCompileExec4256229685.dir/build
+/usr/local/Cellar/cmake/3.1.1/bin/cmake -E cmake_progress_report /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec4256229685.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/local/Cellar/qt/4.8.6/include -F/usr/local/Cellar/qt/4.8.6/lib    -o CMakeFiles/cmTryCompileExec4256229685.dir/CheckSymbolExists.cxx.o -c /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: use of undeclared identifier 'Q_WS_WIN'
+  return ((int*)(&Q_WS_WIN))[argc];
+                  ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTryCompileExec4256229685.dir/CheckSymbolExists.cxx.o] Error 1
+make: *** [cmTryCompileExec4256229685/fast] Error 2
+
+File /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_WIN
+  return ((int*)(&Q_WS_WIN))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2426173025/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec2426173025.dir/build.make CMakeFiles/cmTryCompileExec2426173025.dir/build
+/usr/local/Cellar/cmake/3.1.1/bin/cmake -E cmake_progress_report /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2426173025.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/local/Cellar/qt/4.8.6/include -F/usr/local/Cellar/qt/4.8.6/lib    -o CMakeFiles/cmTryCompileExec2426173025.dir/CheckSymbolExists.cxx.o -c /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: use of undeclared identifier 'Q_WS_QWS'
+  return ((int*)(&Q_WS_QWS))[argc];
+                  ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTryCompileExec2426173025.dir/CheckSymbolExists.cxx.o] Error 1
+make: *** [cmTryCompileExec2426173025/fast] Error 2
+
+File /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+

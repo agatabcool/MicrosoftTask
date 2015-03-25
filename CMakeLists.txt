@@ -7,14 +7,18 @@ find_package(Qt4 REQUIRED)
 find_package(Boost COMPONENTS system filesystem REQUIRED)
 
 set( HEADERS 
-    MainWindow.h  
-    preprocessdata.h
+    src/MainWindow.h  
+    src/preprocessdata.h
+    src/processdata.h
+    src/qcustomplot.h
 )
 
 set( SOURCES 
-    main.cpp
-    MainWindow.cpp  
-    preprocessdata.cpp
+    src/main.cpp
+    src/MainWindow.cpp  
+    src/processdata.cpp
+    src/preprocessdata.cpp
+    src/qcustomplot.cpp
 )
 
 

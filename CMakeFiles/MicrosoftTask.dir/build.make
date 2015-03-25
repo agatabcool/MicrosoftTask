@@ -49,78 +49,124 @@ include CMakeFiles/MicrosoftTask.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/MicrosoftTask.dir/flags.make
 
-CMakeFiles/MicrosoftTask.dir/main.cpp.o: CMakeFiles/MicrosoftTask.dir/flags.make
-CMakeFiles/MicrosoftTask.dir/main.cpp.o: main.cpp
+CMakeFiles/MicrosoftTask.dir/src/main.cpp.o: CMakeFiles/MicrosoftTask.dir/flags.make
+CMakeFiles/MicrosoftTask.dir/src/main.cpp.o: src/main.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles $(CMAKE_PROGRESS_1)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/MicrosoftTask.dir/main.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/MicrosoftTask.dir/main.cpp.o -c /Users/agata/Desktop/CodingProjects/MicrosoftTask/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/MicrosoftTask.dir/src/main.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/MicrosoftTask.dir/src/main.cpp.o -c /Users/agata/Desktop/CodingProjects/MicrosoftTask/src/main.cpp
 
-CMakeFiles/MicrosoftTask.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MicrosoftTask.dir/main.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/agata/Desktop/CodingProjects/MicrosoftTask/main.cpp > CMakeFiles/MicrosoftTask.dir/main.cpp.i
+CMakeFiles/MicrosoftTask.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MicrosoftTask.dir/src/main.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/agata/Desktop/CodingProjects/MicrosoftTask/src/main.cpp > CMakeFiles/MicrosoftTask.dir/src/main.cpp.i
 
-CMakeFiles/MicrosoftTask.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MicrosoftTask.dir/main.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/agata/Desktop/CodingProjects/MicrosoftTask/main.cpp -o CMakeFiles/MicrosoftTask.dir/main.cpp.s
+CMakeFiles/MicrosoftTask.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MicrosoftTask.dir/src/main.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/agata/Desktop/CodingProjects/MicrosoftTask/src/main.cpp -o CMakeFiles/MicrosoftTask.dir/src/main.cpp.s
 
-CMakeFiles/MicrosoftTask.dir/main.cpp.o.requires:
-.PHONY : CMakeFiles/MicrosoftTask.dir/main.cpp.o.requires
+CMakeFiles/MicrosoftTask.dir/src/main.cpp.o.requires:
+.PHONY : CMakeFiles/MicrosoftTask.dir/src/main.cpp.o.requires
 
-CMakeFiles/MicrosoftTask.dir/main.cpp.o.provides: CMakeFiles/MicrosoftTask.dir/main.cpp.o.requires
-	$(MAKE) -f CMakeFiles/MicrosoftTask.dir/build.make CMakeFiles/MicrosoftTask.dir/main.cpp.o.provides.build
-.PHONY : CMakeFiles/MicrosoftTask.dir/main.cpp.o.provides
+CMakeFiles/MicrosoftTask.dir/src/main.cpp.o.provides: CMakeFiles/MicrosoftTask.dir/src/main.cpp.o.requires
+	$(MAKE) -f CMakeFiles/MicrosoftTask.dir/build.make CMakeFiles/MicrosoftTask.dir/src/main.cpp.o.provides.build
+.PHONY : CMakeFiles/MicrosoftTask.dir/src/main.cpp.o.provides
 
-CMakeFiles/MicrosoftTask.dir/main.cpp.o.provides.build: CMakeFiles/MicrosoftTask.dir/main.cpp.o
+CMakeFiles/MicrosoftTask.dir/src/main.cpp.o.provides.build: CMakeFiles/MicrosoftTask.dir/src/main.cpp.o
 
-CMakeFiles/MicrosoftTask.dir/MainWindow.cpp.o: CMakeFiles/MicrosoftTask.dir/flags.make
-CMakeFiles/MicrosoftTask.dir/MainWindow.cpp.o: MainWindow.cpp
+CMakeFiles/MicrosoftTask.dir/src/MainWindow.cpp.o: CMakeFiles/MicrosoftTask.dir/flags.make
+CMakeFiles/MicrosoftTask.dir/src/MainWindow.cpp.o: src/MainWindow.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles $(CMAKE_PROGRESS_2)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/MicrosoftTask.dir/MainWindow.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/MicrosoftTask.dir/MainWindow.cpp.o -c /Users/agata/Desktop/CodingProjects/MicrosoftTask/MainWindow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/MicrosoftTask.dir/src/MainWindow.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/MicrosoftTask.dir/src/MainWindow.cpp.o -c /Users/agata/Desktop/CodingProjects/MicrosoftTask/src/MainWindow.cpp
 
-CMakeFiles/MicrosoftTask.dir/MainWindow.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MicrosoftTask.dir/MainWindow.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/agata/Desktop/CodingProjects/MicrosoftTask/MainWindow.cpp > CMakeFiles/MicrosoftTask.dir/MainWindow.cpp.i
+CMakeFiles/MicrosoftTask.dir/src/MainWindow.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MicrosoftTask.dir/src/MainWindow.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/agata/Desktop/CodingProjects/MicrosoftTask/src/MainWindow.cpp > CMakeFiles/MicrosoftTask.dir/src/MainWindow.cpp.i
 
-CMakeFiles/MicrosoftTask.dir/MainWindow.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MicrosoftTask.dir/MainWindow.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/agata/Desktop/CodingProjects/MicrosoftTask/MainWindow.cpp -o CMakeFiles/MicrosoftTask.dir/MainWindow.cpp.s
+CMakeFiles/MicrosoftTask.dir/src/MainWindow.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MicrosoftTask.dir/src/MainWindow.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/agata/Desktop/CodingProjects/MicrosoftTask/src/MainWindow.cpp -o CMakeFiles/MicrosoftTask.dir/src/MainWindow.cpp.s
 
-CMakeFiles/MicrosoftTask.dir/MainWindow.cpp.o.requires:
-.PHONY : CMakeFiles/MicrosoftTask.dir/MainWindow.cpp.o.requires
+CMakeFiles/MicrosoftTask.dir/src/MainWindow.cpp.o.requires:
+.PHONY : CMakeFiles/MicrosoftTask.dir/src/MainWindow.cpp.o.requires
 
-CMakeFiles/MicrosoftTask.dir/MainWindow.cpp.o.provides: CMakeFiles/MicrosoftTask.dir/MainWindow.cpp.o.requires
-	$(MAKE) -f CMakeFiles/MicrosoftTask.dir/build.make CMakeFiles/MicrosoftTask.dir/MainWindow.cpp.o.provides.build
-.PHONY : CMakeFiles/MicrosoftTask.dir/MainWindow.cpp.o.provides
+CMakeFiles/MicrosoftTask.dir/src/MainWindow.cpp.o.provides: CMakeFiles/MicrosoftTask.dir/src/MainWindow.cpp.o.requires
+	$(MAKE) -f CMakeFiles/MicrosoftTask.dir/build.make CMakeFiles/MicrosoftTask.dir/src/MainWindow.cpp.o.provides.build
+.PHONY : CMakeFiles/MicrosoftTask.dir/src/MainWindow.cpp.o.provides
 
-CMakeFiles/MicrosoftTask.dir/MainWindow.cpp.o.provides.build: CMakeFiles/MicrosoftTask.dir/MainWindow.cpp.o
+CMakeFiles/MicrosoftTask.dir/src/MainWindow.cpp.o.provides.build: CMakeFiles/MicrosoftTask.dir/src/MainWindow.cpp.o
 
-CMakeFiles/MicrosoftTask.dir/preprocessdata.cpp.o: CMakeFiles/MicrosoftTask.dir/flags.make
-CMakeFiles/MicrosoftTask.dir/preprocessdata.cpp.o: preprocessdata.cpp
+CMakeFiles/MicrosoftTask.dir/src/processdata.cpp.o: CMakeFiles/MicrosoftTask.dir/flags.make
+CMakeFiles/MicrosoftTask.dir/src/processdata.cpp.o: src/processdata.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles $(CMAKE_PROGRESS_3)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/MicrosoftTask.dir/preprocessdata.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/MicrosoftTask.dir/preprocessdata.cpp.o -c /Users/agata/Desktop/CodingProjects/MicrosoftTask/preprocessdata.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/MicrosoftTask.dir/src/processdata.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/MicrosoftTask.dir/src/processdata.cpp.o -c /Users/agata/Desktop/CodingProjects/MicrosoftTask/src/processdata.cpp
 
-CMakeFiles/MicrosoftTask.dir/preprocessdata.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MicrosoftTask.dir/preprocessdata.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/agata/Desktop/CodingProjects/MicrosoftTask/preprocessdata.cpp > CMakeFiles/MicrosoftTask.dir/preprocessdata.cpp.i
+CMakeFiles/MicrosoftTask.dir/src/processdata.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MicrosoftTask.dir/src/processdata.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/agata/Desktop/CodingProjects/MicrosoftTask/src/processdata.cpp > CMakeFiles/MicrosoftTask.dir/src/processdata.cpp.i
 
-CMakeFiles/MicrosoftTask.dir/preprocessdata.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MicrosoftTask.dir/preprocessdata.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/agata/Desktop/CodingProjects/MicrosoftTask/preprocessdata.cpp -o CMakeFiles/MicrosoftTask.dir/preprocessdata.cpp.s
+CMakeFiles/MicrosoftTask.dir/src/processdata.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MicrosoftTask.dir/src/processdata.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/agata/Desktop/CodingProjects/MicrosoftTask/src/processdata.cpp -o CMakeFiles/MicrosoftTask.dir/src/processdata.cpp.s
 
-CMakeFiles/MicrosoftTask.dir/preprocessdata.cpp.o.requires:
-.PHONY : CMakeFiles/MicrosoftTask.dir/preprocessdata.cpp.o.requires
+CMakeFiles/MicrosoftTask.dir/src/processdata.cpp.o.requires:
+.PHONY : CMakeFiles/MicrosoftTask.dir/src/processdata.cpp.o.requires
 
-CMakeFiles/MicrosoftTask.dir/preprocessdata.cpp.o.provides: CMakeFiles/MicrosoftTask.dir/preprocessdata.cpp.o.requires
-	$(MAKE) -f CMakeFiles/MicrosoftTask.dir/build.make CMakeFiles/MicrosoftTask.dir/preprocessdata.cpp.o.provides.build
-.PHONY : CMakeFiles/MicrosoftTask.dir/preprocessdata.cpp.o.provides
+CMakeFiles/MicrosoftTask.dir/src/processdata.cpp.o.provides: CMakeFiles/MicrosoftTask.dir/src/processdata.cpp.o.requires
+	$(MAKE) -f CMakeFiles/MicrosoftTask.dir/build.make CMakeFiles/MicrosoftTask.dir/src/processdata.cpp.o.provides.build
+.PHONY : CMakeFiles/MicrosoftTask.dir/src/processdata.cpp.o.provides
 
-CMakeFiles/MicrosoftTask.dir/preprocessdata.cpp.o.provides.build: CMakeFiles/MicrosoftTask.dir/preprocessdata.cpp.o
+CMakeFiles/MicrosoftTask.dir/src/processdata.cpp.o.provides.build: CMakeFiles/MicrosoftTask.dir/src/processdata.cpp.o
+
+CMakeFiles/MicrosoftTask.dir/src/preprocessdata.cpp.o: CMakeFiles/MicrosoftTask.dir/flags.make
+CMakeFiles/MicrosoftTask.dir/src/preprocessdata.cpp.o: src/preprocessdata.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles $(CMAKE_PROGRESS_4)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/MicrosoftTask.dir/src/preprocessdata.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/MicrosoftTask.dir/src/preprocessdata.cpp.o -c /Users/agata/Desktop/CodingProjects/MicrosoftTask/src/preprocessdata.cpp
+
+CMakeFiles/MicrosoftTask.dir/src/preprocessdata.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MicrosoftTask.dir/src/preprocessdata.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/agata/Desktop/CodingProjects/MicrosoftTask/src/preprocessdata.cpp > CMakeFiles/MicrosoftTask.dir/src/preprocessdata.cpp.i
+
+CMakeFiles/MicrosoftTask.dir/src/preprocessdata.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MicrosoftTask.dir/src/preprocessdata.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/agata/Desktop/CodingProjects/MicrosoftTask/src/preprocessdata.cpp -o CMakeFiles/MicrosoftTask.dir/src/preprocessdata.cpp.s
+
+CMakeFiles/MicrosoftTask.dir/src/preprocessdata.cpp.o.requires:
+.PHONY : CMakeFiles/MicrosoftTask.dir/src/preprocessdata.cpp.o.requires
+
+CMakeFiles/MicrosoftTask.dir/src/preprocessdata.cpp.o.provides: CMakeFiles/MicrosoftTask.dir/src/preprocessdata.cpp.o.requires
+	$(MAKE) -f CMakeFiles/MicrosoftTask.dir/build.make CMakeFiles/MicrosoftTask.dir/src/preprocessdata.cpp.o.provides.build
+.PHONY : CMakeFiles/MicrosoftTask.dir/src/preprocessdata.cpp.o.provides
+
+CMakeFiles/MicrosoftTask.dir/src/preprocessdata.cpp.o.provides.build: CMakeFiles/MicrosoftTask.dir/src/preprocessdata.cpp.o
+
+CMakeFiles/MicrosoftTask.dir/src/qcustomplot.cpp.o: CMakeFiles/MicrosoftTask.dir/flags.make
+CMakeFiles/MicrosoftTask.dir/src/qcustomplot.cpp.o: src/qcustomplot.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles $(CMAKE_PROGRESS_5)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/MicrosoftTask.dir/src/qcustomplot.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/MicrosoftTask.dir/src/qcustomplot.cpp.o -c /Users/agata/Desktop/CodingProjects/MicrosoftTask/src/qcustomplot.cpp
+
+CMakeFiles/MicrosoftTask.dir/src/qcustomplot.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MicrosoftTask.dir/src/qcustomplot.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/agata/Desktop/CodingProjects/MicrosoftTask/src/qcustomplot.cpp > CMakeFiles/MicrosoftTask.dir/src/qcustomplot.cpp.i
+
+CMakeFiles/MicrosoftTask.dir/src/qcustomplot.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MicrosoftTask.dir/src/qcustomplot.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/agata/Desktop/CodingProjects/MicrosoftTask/src/qcustomplot.cpp -o CMakeFiles/MicrosoftTask.dir/src/qcustomplot.cpp.s
+
+CMakeFiles/MicrosoftTask.dir/src/qcustomplot.cpp.o.requires:
+.PHONY : CMakeFiles/MicrosoftTask.dir/src/qcustomplot.cpp.o.requires
+
+CMakeFiles/MicrosoftTask.dir/src/qcustomplot.cpp.o.provides: CMakeFiles/MicrosoftTask.dir/src/qcustomplot.cpp.o.requires
+	$(MAKE) -f CMakeFiles/MicrosoftTask.dir/build.make CMakeFiles/MicrosoftTask.dir/src/qcustomplot.cpp.o.provides.build
+.PHONY : CMakeFiles/MicrosoftTask.dir/src/qcustomplot.cpp.o.provides
+
+CMakeFiles/MicrosoftTask.dir/src/qcustomplot.cpp.o.provides.build: CMakeFiles/MicrosoftTask.dir/src/qcustomplot.cpp.o
 
 CMakeFiles/MicrosoftTask.dir/MicrosoftTask_automoc.cpp.o: CMakeFiles/MicrosoftTask.dir/flags.make
 CMakeFiles/MicrosoftTask.dir/MicrosoftTask_automoc.cpp.o: MicrosoftTask_automoc.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/MicrosoftTask.dir/MicrosoftTask_automoc.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/MicrosoftTask.dir/MicrosoftTask_automoc.cpp.o -c /Users/agata/Desktop/CodingProjects/MicrosoftTask/MicrosoftTask_automoc.cpp
 
@@ -143,17 +189,21 @@ CMakeFiles/MicrosoftTask.dir/MicrosoftTask_automoc.cpp.o.provides.build: CMakeFi
 
 # Object files for target MicrosoftTask
 MicrosoftTask_OBJECTS = \
-"CMakeFiles/MicrosoftTask.dir/main.cpp.o" \
-"CMakeFiles/MicrosoftTask.dir/MainWindow.cpp.o" \
-"CMakeFiles/MicrosoftTask.dir/preprocessdata.cpp.o" \
+"CMakeFiles/MicrosoftTask.dir/src/main.cpp.o" \
+"CMakeFiles/MicrosoftTask.dir/src/MainWindow.cpp.o" \
+"CMakeFiles/MicrosoftTask.dir/src/processdata.cpp.o" \
+"CMakeFiles/MicrosoftTask.dir/src/preprocessdata.cpp.o" \
+"CMakeFiles/MicrosoftTask.dir/src/qcustomplot.cpp.o" \
 "CMakeFiles/MicrosoftTask.dir/MicrosoftTask_automoc.cpp.o"
 
 # External object files for target MicrosoftTask
 MicrosoftTask_EXTERNAL_OBJECTS =
 
-MicrosoftTask: CMakeFiles/MicrosoftTask.dir/main.cpp.o
-MicrosoftTask: CMakeFiles/MicrosoftTask.dir/MainWindow.cpp.o
-MicrosoftTask: CMakeFiles/MicrosoftTask.dir/preprocessdata.cpp.o
+MicrosoftTask: CMakeFiles/MicrosoftTask.dir/src/main.cpp.o
+MicrosoftTask: CMakeFiles/MicrosoftTask.dir/src/MainWindow.cpp.o
+MicrosoftTask: CMakeFiles/MicrosoftTask.dir/src/processdata.cpp.o
+MicrosoftTask: CMakeFiles/MicrosoftTask.dir/src/preprocessdata.cpp.o
+MicrosoftTask: CMakeFiles/MicrosoftTask.dir/src/qcustomplot.cpp.o
 MicrosoftTask: CMakeFiles/MicrosoftTask.dir/MicrosoftTask_automoc.cpp.o
 MicrosoftTask: CMakeFiles/MicrosoftTask.dir/build.make
 MicrosoftTask: /usr/local/lib/libboost_system-mt.dylib
@@ -168,9 +218,11 @@ MicrosoftTask: CMakeFiles/MicrosoftTask.dir/link.txt
 CMakeFiles/MicrosoftTask.dir/build: MicrosoftTask
 .PHONY : CMakeFiles/MicrosoftTask.dir/build
 
-CMakeFiles/MicrosoftTask.dir/requires: CMakeFiles/MicrosoftTask.dir/main.cpp.o.requires
-CMakeFiles/MicrosoftTask.dir/requires: CMakeFiles/MicrosoftTask.dir/MainWindow.cpp.o.requires
-CMakeFiles/MicrosoftTask.dir/requires: CMakeFiles/MicrosoftTask.dir/preprocessdata.cpp.o.requires
+CMakeFiles/MicrosoftTask.dir/requires: CMakeFiles/MicrosoftTask.dir/src/main.cpp.o.requires
+CMakeFiles/MicrosoftTask.dir/requires: CMakeFiles/MicrosoftTask.dir/src/MainWindow.cpp.o.requires
+CMakeFiles/MicrosoftTask.dir/requires: CMakeFiles/MicrosoftTask.dir/src/processdata.cpp.o.requires
+CMakeFiles/MicrosoftTask.dir/requires: CMakeFiles/MicrosoftTask.dir/src/preprocessdata.cpp.o.requires
+CMakeFiles/MicrosoftTask.dir/requires: CMakeFiles/MicrosoftTask.dir/src/qcustomplot.cpp.o.requires
 CMakeFiles/MicrosoftTask.dir/requires: CMakeFiles/MicrosoftTask.dir/MicrosoftTask_automoc.cpp.o.requires
 .PHONY : CMakeFiles/MicrosoftTask.dir/requires
 

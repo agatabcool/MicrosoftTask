@@ -4,10 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/agata/Desktop/CodingProjects/MicrosoftTask/MainWindow.cpp" "/Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/MicrosoftTask.dir/MainWindow.cpp.o"
   "/Users/agata/Desktop/CodingProjects/MicrosoftTask/MicrosoftTask_automoc.cpp" "/Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/MicrosoftTask.dir/MicrosoftTask_automoc.cpp.o"
-  "/Users/agata/Desktop/CodingProjects/MicrosoftTask/main.cpp" "/Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/MicrosoftTask.dir/main.cpp.o"
-  "/Users/agata/Desktop/CodingProjects/MicrosoftTask/preprocessdata.cpp" "/Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/MicrosoftTask.dir/preprocessdata.cpp.o"
+  "/Users/agata/Desktop/CodingProjects/MicrosoftTask/src/MainWindow.cpp" "/Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/MicrosoftTask.dir/src/MainWindow.cpp.o"
+  "/Users/agata/Desktop/CodingProjects/MicrosoftTask/src/main.cpp" "/Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/MicrosoftTask.dir/src/main.cpp.o"
+  "/Users/agata/Desktop/CodingProjects/MicrosoftTask/src/preprocessdata.cpp" "/Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/MicrosoftTask.dir/src/preprocessdata.cpp.o"
+  "/Users/agata/Desktop/CodingProjects/MicrosoftTask/src/processdata.cpp" "/Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/MicrosoftTask.dir/src/processdata.cpp.o"
+  "/Users/agata/Desktop/CodingProjects/MicrosoftTask/src/qcustomplot.cpp" "/Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/MicrosoftTask.dir/src/qcustomplot.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "Clang")
 
