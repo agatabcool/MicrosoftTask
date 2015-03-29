@@ -164,9 +164,78 @@ CMakeFiles/MicrosoftTask.dir/src/qcustomplot.cpp.o.provides: CMakeFiles/Microsof
 
 CMakeFiles/MicrosoftTask.dir/src/qcustomplot.cpp.o.provides.build: CMakeFiles/MicrosoftTask.dir/src/qcustomplot.cpp.o
 
+CMakeFiles/MicrosoftTask.dir/src/logregression.cpp.o: CMakeFiles/MicrosoftTask.dir/flags.make
+CMakeFiles/MicrosoftTask.dir/src/logregression.cpp.o: src/logregression.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles $(CMAKE_PROGRESS_6)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/MicrosoftTask.dir/src/logregression.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/MicrosoftTask.dir/src/logregression.cpp.o -c /Users/agata/Desktop/CodingProjects/MicrosoftTask/src/logregression.cpp
+
+CMakeFiles/MicrosoftTask.dir/src/logregression.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MicrosoftTask.dir/src/logregression.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/agata/Desktop/CodingProjects/MicrosoftTask/src/logregression.cpp > CMakeFiles/MicrosoftTask.dir/src/logregression.cpp.i
+
+CMakeFiles/MicrosoftTask.dir/src/logregression.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MicrosoftTask.dir/src/logregression.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/agata/Desktop/CodingProjects/MicrosoftTask/src/logregression.cpp -o CMakeFiles/MicrosoftTask.dir/src/logregression.cpp.s
+
+CMakeFiles/MicrosoftTask.dir/src/logregression.cpp.o.requires:
+.PHONY : CMakeFiles/MicrosoftTask.dir/src/logregression.cpp.o.requires
+
+CMakeFiles/MicrosoftTask.dir/src/logregression.cpp.o.provides: CMakeFiles/MicrosoftTask.dir/src/logregression.cpp.o.requires
+	$(MAKE) -f CMakeFiles/MicrosoftTask.dir/build.make CMakeFiles/MicrosoftTask.dir/src/logregression.cpp.o.provides.build
+.PHONY : CMakeFiles/MicrosoftTask.dir/src/logregression.cpp.o.provides
+
+CMakeFiles/MicrosoftTask.dir/src/logregression.cpp.o.provides.build: CMakeFiles/MicrosoftTask.dir/src/logregression.cpp.o
+
+CMakeFiles/MicrosoftTask.dir/src/svmrankanalysis.cpp.o: CMakeFiles/MicrosoftTask.dir/flags.make
+CMakeFiles/MicrosoftTask.dir/src/svmrankanalysis.cpp.o: src/svmrankanalysis.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles $(CMAKE_PROGRESS_7)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/MicrosoftTask.dir/src/svmrankanalysis.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/MicrosoftTask.dir/src/svmrankanalysis.cpp.o -c /Users/agata/Desktop/CodingProjects/MicrosoftTask/src/svmrankanalysis.cpp
+
+CMakeFiles/MicrosoftTask.dir/src/svmrankanalysis.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MicrosoftTask.dir/src/svmrankanalysis.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/agata/Desktop/CodingProjects/MicrosoftTask/src/svmrankanalysis.cpp > CMakeFiles/MicrosoftTask.dir/src/svmrankanalysis.cpp.i
+
+CMakeFiles/MicrosoftTask.dir/src/svmrankanalysis.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MicrosoftTask.dir/src/svmrankanalysis.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/agata/Desktop/CodingProjects/MicrosoftTask/src/svmrankanalysis.cpp -o CMakeFiles/MicrosoftTask.dir/src/svmrankanalysis.cpp.s
+
+CMakeFiles/MicrosoftTask.dir/src/svmrankanalysis.cpp.o.requires:
+.PHONY : CMakeFiles/MicrosoftTask.dir/src/svmrankanalysis.cpp.o.requires
+
+CMakeFiles/MicrosoftTask.dir/src/svmrankanalysis.cpp.o.provides: CMakeFiles/MicrosoftTask.dir/src/svmrankanalysis.cpp.o.requires
+	$(MAKE) -f CMakeFiles/MicrosoftTask.dir/build.make CMakeFiles/MicrosoftTask.dir/src/svmrankanalysis.cpp.o.provides.build
+.PHONY : CMakeFiles/MicrosoftTask.dir/src/svmrankanalysis.cpp.o.provides
+
+CMakeFiles/MicrosoftTask.dir/src/svmrankanalysis.cpp.o.provides.build: CMakeFiles/MicrosoftTask.dir/src/svmrankanalysis.cpp.o
+
+CMakeFiles/MicrosoftTask.dir/src/logreg.cpp.o: CMakeFiles/MicrosoftTask.dir/flags.make
+CMakeFiles/MicrosoftTask.dir/src/logreg.cpp.o: src/logreg.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles $(CMAKE_PROGRESS_8)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/MicrosoftTask.dir/src/logreg.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/MicrosoftTask.dir/src/logreg.cpp.o -c /Users/agata/Desktop/CodingProjects/MicrosoftTask/src/logreg.cpp
+
+CMakeFiles/MicrosoftTask.dir/src/logreg.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MicrosoftTask.dir/src/logreg.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/agata/Desktop/CodingProjects/MicrosoftTask/src/logreg.cpp > CMakeFiles/MicrosoftTask.dir/src/logreg.cpp.i
+
+CMakeFiles/MicrosoftTask.dir/src/logreg.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MicrosoftTask.dir/src/logreg.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/agata/Desktop/CodingProjects/MicrosoftTask/src/logreg.cpp -o CMakeFiles/MicrosoftTask.dir/src/logreg.cpp.s
+
+CMakeFiles/MicrosoftTask.dir/src/logreg.cpp.o.requires:
+.PHONY : CMakeFiles/MicrosoftTask.dir/src/logreg.cpp.o.requires
+
+CMakeFiles/MicrosoftTask.dir/src/logreg.cpp.o.provides: CMakeFiles/MicrosoftTask.dir/src/logreg.cpp.o.requires
+	$(MAKE) -f CMakeFiles/MicrosoftTask.dir/build.make CMakeFiles/MicrosoftTask.dir/src/logreg.cpp.o.provides.build
+.PHONY : CMakeFiles/MicrosoftTask.dir/src/logreg.cpp.o.provides
+
+CMakeFiles/MicrosoftTask.dir/src/logreg.cpp.o.provides.build: CMakeFiles/MicrosoftTask.dir/src/logreg.cpp.o
+
 CMakeFiles/MicrosoftTask.dir/MicrosoftTask_automoc.cpp.o: CMakeFiles/MicrosoftTask.dir/flags.make
 CMakeFiles/MicrosoftTask.dir/MicrosoftTask_automoc.cpp.o: MicrosoftTask_automoc.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/MicrosoftTask.dir/MicrosoftTask_automoc.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/MicrosoftTask.dir/MicrosoftTask_automoc.cpp.o -c /Users/agata/Desktop/CodingProjects/MicrosoftTask/MicrosoftTask_automoc.cpp
 
@@ -194,6 +263,9 @@ MicrosoftTask_OBJECTS = \
 "CMakeFiles/MicrosoftTask.dir/src/processdata.cpp.o" \
 "CMakeFiles/MicrosoftTask.dir/src/preprocessdata.cpp.o" \
 "CMakeFiles/MicrosoftTask.dir/src/qcustomplot.cpp.o" \
+"CMakeFiles/MicrosoftTask.dir/src/logregression.cpp.o" \
+"CMakeFiles/MicrosoftTask.dir/src/svmrankanalysis.cpp.o" \
+"CMakeFiles/MicrosoftTask.dir/src/logreg.cpp.o" \
 "CMakeFiles/MicrosoftTask.dir/MicrosoftTask_automoc.cpp.o"
 
 # External object files for target MicrosoftTask
@@ -204,6 +276,9 @@ MicrosoftTask: CMakeFiles/MicrosoftTask.dir/src/MainWindow.cpp.o
 MicrosoftTask: CMakeFiles/MicrosoftTask.dir/src/processdata.cpp.o
 MicrosoftTask: CMakeFiles/MicrosoftTask.dir/src/preprocessdata.cpp.o
 MicrosoftTask: CMakeFiles/MicrosoftTask.dir/src/qcustomplot.cpp.o
+MicrosoftTask: CMakeFiles/MicrosoftTask.dir/src/logregression.cpp.o
+MicrosoftTask: CMakeFiles/MicrosoftTask.dir/src/svmrankanalysis.cpp.o
+MicrosoftTask: CMakeFiles/MicrosoftTask.dir/src/logreg.cpp.o
 MicrosoftTask: CMakeFiles/MicrosoftTask.dir/MicrosoftTask_automoc.cpp.o
 MicrosoftTask: CMakeFiles/MicrosoftTask.dir/build.make
 MicrosoftTask: /usr/local/lib/libboost_system-mt.dylib
@@ -211,6 +286,7 @@ MicrosoftTask: /usr/local/lib/libboost_filesystem-mt.dylib
 MicrosoftTask: /usr/local/lib/libboost_filesystem-mt.dylib
 MicrosoftTask: /usr/local/lib/libboost_system-mt.dylib
 MicrosoftTask: libsvm_rank_lib.a
+MicrosoftTask: libliblinear_lib.a
 MicrosoftTask: CMakeFiles/MicrosoftTask.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable MicrosoftTask"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/MicrosoftTask.dir/link.txt --verbose=$(VERBOSE)
@@ -224,6 +300,9 @@ CMakeFiles/MicrosoftTask.dir/requires: CMakeFiles/MicrosoftTask.dir/src/MainWind
 CMakeFiles/MicrosoftTask.dir/requires: CMakeFiles/MicrosoftTask.dir/src/processdata.cpp.o.requires
 CMakeFiles/MicrosoftTask.dir/requires: CMakeFiles/MicrosoftTask.dir/src/preprocessdata.cpp.o.requires
 CMakeFiles/MicrosoftTask.dir/requires: CMakeFiles/MicrosoftTask.dir/src/qcustomplot.cpp.o.requires
+CMakeFiles/MicrosoftTask.dir/requires: CMakeFiles/MicrosoftTask.dir/src/logregression.cpp.o.requires
+CMakeFiles/MicrosoftTask.dir/requires: CMakeFiles/MicrosoftTask.dir/src/svmrankanalysis.cpp.o.requires
+CMakeFiles/MicrosoftTask.dir/requires: CMakeFiles/MicrosoftTask.dir/src/logreg.cpp.o.requires
 CMakeFiles/MicrosoftTask.dir/requires: CMakeFiles/MicrosoftTask.dir/MicrosoftTask_automoc.cpp.o.requires
 .PHONY : CMakeFiles/MicrosoftTask.dir/requires
 

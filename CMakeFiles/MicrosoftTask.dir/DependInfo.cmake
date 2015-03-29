@@ -6,10 +6,13 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/agata/Desktop/CodingProjects/MicrosoftTask/MicrosoftTask_automoc.cpp" "/Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/MicrosoftTask.dir/MicrosoftTask_automoc.cpp.o"
   "/Users/agata/Desktop/CodingProjects/MicrosoftTask/src/MainWindow.cpp" "/Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/MicrosoftTask.dir/src/MainWindow.cpp.o"
+  "/Users/agata/Desktop/CodingProjects/MicrosoftTask/src/logreg.cpp" "/Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/MicrosoftTask.dir/src/logreg.cpp.o"
+  "/Users/agata/Desktop/CodingProjects/MicrosoftTask/src/logregression.cpp" "/Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/MicrosoftTask.dir/src/logregression.cpp.o"
   "/Users/agata/Desktop/CodingProjects/MicrosoftTask/src/main.cpp" "/Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/MicrosoftTask.dir/src/main.cpp.o"
   "/Users/agata/Desktop/CodingProjects/MicrosoftTask/src/preprocessdata.cpp" "/Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/MicrosoftTask.dir/src/preprocessdata.cpp.o"
   "/Users/agata/Desktop/CodingProjects/MicrosoftTask/src/processdata.cpp" "/Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/MicrosoftTask.dir/src/processdata.cpp.o"
   "/Users/agata/Desktop/CodingProjects/MicrosoftTask/src/qcustomplot.cpp" "/Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/MicrosoftTask.dir/src/qcustomplot.cpp.o"
+  "/Users/agata/Desktop/CodingProjects/MicrosoftTask/src/svmrankanalysis.cpp" "/Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/MicrosoftTask.dir/src/svmrankanalysis.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "Clang")
 
@@ -23,10 +26,13 @@ set(CMAKE_TARGET_DEFINITIONS
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
   "/Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/svm_rank_lib.dir/DependInfo.cmake"
+  "/Users/agata/Desktop/CodingProjects/MicrosoftTask/CMakeFiles/liblinear_lib.dir/DependInfo.cmake"
   )
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
+  "../Libraries/liblinear_1_96"
+  "/usr/local/include/eigen3"
   "/usr/local/Cellar/qt/4.8.6/include"
   "/usr/local/Cellar/qt/4.8.6/lib/QtCore.framework"
   "/usr/local/Cellar/qt/4.8.6/include/QtGui"

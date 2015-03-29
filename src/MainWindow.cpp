@@ -2,6 +2,8 @@
 #include <QtGui>
 #include <iostream>
 #include "processdata.h"
+#include "logregression.h"
+#include "logreg.h"
 #include <QSignalMapper>
 #include <numeric>
 
@@ -17,6 +19,8 @@ MainWindow::MainWindow(QWidget *parent)
 	loadButton->show();
 	plotRelevButton = new QPushButton(tr("&Plot Relev"));
 	plotRelevButton->show();
+	applyLogRegress= new QPushButton(tr("&apply log regression"));
+	applyLogRegress->show();
 	quitButton = new QPushButton(tr("&Quit"));
 	quitButton->show();
 
@@ -24,11 +28,13 @@ MainWindow::MainWindow(QWidget *parent)
 
 	connect(loadButton, SIGNAL(clicked()), this, SLOT(loadFile()));
 	connect(plotRelevButton, SIGNAL(clicked()), this, SLOT(plotRelev()));
+	connect(applyLogRegress, SIGNAL(clicked()), this, SLOT(apply_lr()));
 	connect(quitButton, SIGNAL(clicked()), qApp, SLOT(quit()));
 
 	QVBoxLayout *buttonLayout1 = new QVBoxLayout;
     buttonLayout1->addWidget(loadButton, Qt::AlignTop);
     buttonLayout1->addWidget(plotRelevButton);
+    buttonLayout1->addWidget(applyLogRegress);
     buttonLayout1->addWidget(quitButton);
     buttonLayout1->addStretch();
 
@@ -140,6 +146,33 @@ void MainWindow::plotRelev(){
 	customPlot->yAxis->setRange(0, 1);
 	customPlot->graph(0)->setScatterStyle(QCPScatterStyle(QCPScatterStyle::ssCircle, Qt::red, 5));
 	customPlot->replot();//`enter code here`
+}
+
+void MainWindow::apply_lr(){
+	std::cout << "applying_lr..." << std::endl;
+	if (!pd){
+		QMessageBox messageBox;
+		messageBox.critical(0,"Error","Please load an appropriate dataset !");
+		messageBox.setFixedSize(500,200);
+	}
+	else{
+		LogReg *lr = new LogReg();
+		lr->logreg_train(pd);
+//		LogRegression *lr = new LogRegression();
+//		lr_params train_params;
+//		train_params.step_size =0.00001;
+//		train_params.stop_tol = 0.0001;
+//		train_params.max_iter = 1000;
+//		Eigen::MatrixXd learned_weights(1,pd->parsed_data.data_stats.num_feats+1);
+//		lr->train(pd,train_params,learned_weights);
+//
+//		Eigen::MatrixXd Y_pred(pd->parsed_data.data_stats.num_queries,1);
+//		lr->test(pd, learned_weights, Y_pred);
+//		double error;
+//		lr->get_test_error(pd, Y_pred, error);
+//		std::cout << "Error for logistic regression is: " << error << std::endl;
+
+	}
 }
 
 void MainWindow::printSummary(){

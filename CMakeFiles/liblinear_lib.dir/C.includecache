@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/agata/Desktop/CodingProjects/Libraries/liblinear_1_96/linear.h
+
+/Users/agata/Desktop/CodingProjects/Libraries/liblinear_1_96/predict.c
+stdio.h
+-
+ctype.h
+-
+stdlib.h
+-
+string.h
+-
+errno.h
+-
+linear.h
+/Users/agata/Desktop/CodingProjects/Libraries/liblinear_1_96/linear.h
+
+/Users/agata/Desktop/CodingProjects/Libraries/liblinear_1_96/train.c
+stdio.h
+-
+math.h
+-
+stdlib.h
+-
+string.h
+-
+ctype.h
+-
+errno.h
+-
+linear.h
+/Users/agata/Desktop/CodingProjects/Libraries/liblinear_1_96/linear.h
+

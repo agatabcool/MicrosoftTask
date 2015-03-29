@@ -1,0 +1,2 @@
+/usr/bin/ar cq libliblinear_lib.a  CMakeFiles/liblinear_lib.dir/Users/agata/Desktop/CodingProjects/Libraries/liblinear_1_96/predict.c.o CMakeFiles/liblinear_lib.dir/Users/agata/Desktop/CodingProjects/Libraries/liblinear_1_96/linear.cpp.o CMakeFiles/liblinear_lib.dir/Users/agata/Desktop/CodingProjects/Libraries/liblinear_1_96/train.c.o CMakeFiles/liblinear_lib.dir/Users/agata/Desktop/CodingProjects/Libraries/liblinear_1_96/tron.cpp.o CMakeFiles/liblinear_lib.dir/liblinear_lib_automoc.cpp.o
+/usr/bin/ranlib libliblinear_lib.a

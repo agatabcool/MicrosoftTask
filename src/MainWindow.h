@@ -35,12 +35,14 @@ private slots:
 	void loadFile();
 	//void plotRelev(QCustomPlot *customPlot);
 	void plotRelev();
+	void apply_lr();
 
 
 private:
 	QPushButton *loadButton;
 	QPushButton *quitButton;
 	QPushButton *plotRelevButton;
+	QPushButton *applyLogRegress;
 	QTextEdit *textEdit;
 
 	void printSummary();

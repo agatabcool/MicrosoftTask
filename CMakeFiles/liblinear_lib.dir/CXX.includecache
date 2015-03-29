@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/agata/Desktop/CodingProjects/Libraries/liblinear_1_96/linear.cpp
+math.h
+-
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+stdarg.h
+-
+locale.h
+-
+linear.h
+/Users/agata/Desktop/CodingProjects/Libraries/liblinear_1_96/linear.h
+tron.h
+/Users/agata/Desktop/CodingProjects/Libraries/liblinear_1_96/tron.h
+
+/Users/agata/Desktop/CodingProjects/Libraries/liblinear_1_96/linear.h
+
+/Users/agata/Desktop/CodingProjects/Libraries/liblinear_1_96/tron.cpp
+math.h
+-
+stdio.h
+-
+string.h
+-
+stdarg.h
+-
+tron.h
+/Users/agata/Desktop/CodingProjects/Libraries/liblinear_1_96/tron.h
+
+/Users/agata/Desktop/CodingProjects/Libraries/liblinear_1_96/tron.h
+
+/Users/agata/Desktop/CodingProjects/MicrosoftTask/liblinear_lib_automoc.cpp
+

@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "liblinear_lib_automoc.cpp"
   "svm_rank_lib_automoc.cpp"
   "MicrosoftTask_automoc.cpp"
   "CMakeFiles/MicrosoftTask.dir/src/main.cpp.o"
@@ -6,6 +7,9 @@ file(REMOVE_RECURSE
   "CMakeFiles/MicrosoftTask.dir/src/processdata.cpp.o"
   "CMakeFiles/MicrosoftTask.dir/src/preprocessdata.cpp.o"
   "CMakeFiles/MicrosoftTask.dir/src/qcustomplot.cpp.o"
+  "CMakeFiles/MicrosoftTask.dir/src/logregression.cpp.o"
+  "CMakeFiles/MicrosoftTask.dir/src/svmrankanalysis.cpp.o"
+  "CMakeFiles/MicrosoftTask.dir/src/logreg.cpp.o"
   "CMakeFiles/MicrosoftTask.dir/MicrosoftTask_automoc.cpp.o"
   "MicrosoftTask.pdb"
   "MicrosoftTask"

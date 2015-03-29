@@ -129,6 +129,32 @@ MicrosoftTask_automoc/fast:
 .PHONY : MicrosoftTask_automoc/fast
 
 #=============================================================================
+# Target rules for targets named liblinear_lib
+
+# Build rule for target.
+liblinear_lib: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 liblinear_lib
+.PHONY : liblinear_lib
+
+# fast build rule for target.
+liblinear_lib/fast:
+	$(MAKE) -f CMakeFiles/liblinear_lib.dir/build.make CMakeFiles/liblinear_lib.dir/build
+.PHONY : liblinear_lib/fast
+
+#=============================================================================
+# Target rules for targets named liblinear_lib_automoc
+
+# Build rule for target.
+liblinear_lib_automoc: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 liblinear_lib_automoc
+.PHONY : liblinear_lib_automoc
+
+# fast build rule for target.
+liblinear_lib_automoc/fast:
+	$(MAKE) -f CMakeFiles/liblinear_lib_automoc.dir/build.make CMakeFiles/liblinear_lib_automoc.dir/build
+.PHONY : liblinear_lib_automoc/fast
+
+#=============================================================================
 # Target rules for targets named svm_rank_lib
 
 # Build rule for target.
@@ -177,6 +203,102 @@ MicrosoftTask_automoc.s: MicrosoftTask_automoc.cpp.s
 MicrosoftTask_automoc.cpp.s:
 	$(MAKE) -f CMakeFiles/MicrosoftTask.dir/build.make CMakeFiles/MicrosoftTask.dir/MicrosoftTask_automoc.cpp.s
 .PHONY : MicrosoftTask_automoc.cpp.s
+
+Users/agata/Desktop/CodingProjects/Libraries/liblinear_1_96/linear.o: Users/agata/Desktop/CodingProjects/Libraries/liblinear_1_96/linear.cpp.o
+.PHONY : Users/agata/Desktop/CodingProjects/Libraries/liblinear_1_96/linear.o
+
+# target to build an object file
+Users/agata/Desktop/CodingProjects/Libraries/liblinear_1_96/linear.cpp.o:
+	$(MAKE) -f CMakeFiles/liblinear_lib.dir/build.make CMakeFiles/liblinear_lib.dir/Users/agata/Desktop/CodingProjects/Libraries/liblinear_1_96/linear.cpp.o
+.PHONY : Users/agata/Desktop/CodingProjects/Libraries/liblinear_1_96/linear.cpp.o
+
+Users/agata/Desktop/CodingProjects/Libraries/liblinear_1_96/linear.i: Users/agata/Desktop/CodingProjects/Libraries/liblinear_1_96/linear.cpp.i
+.PHONY : Users/agata/Desktop/CodingProjects/Libraries/liblinear_1_96/linear.i
+
+# target to preprocess a source file
+Users/agata/Desktop/CodingProjects/Libraries/liblinear_1_96/linear.cpp.i:
+	$(MAKE) -f CMakeFiles/liblinear_lib.dir/build.make CMakeFiles/liblinear_lib.dir/Users/agata/Desktop/CodingProjects/Libraries/liblinear_1_96/linear.cpp.i
+.PHONY : Users/agata/Desktop/CodingProjects/Libraries/liblinear_1_96/linear.cpp.i
+
+Users/agata/Desktop/CodingProjects/Libraries/liblinear_1_96/linear.s: Users/agata/Desktop/CodingProjects/Libraries/liblinear_1_96/linear.cpp.s
+.PHONY : Users/agata/Desktop/CodingProjects/Libraries/liblinear_1_96/linear.s
+
+# target to generate assembly for a file
+Users/agata/Desktop/CodingProjects/Libraries/liblinear_1_96/linear.cpp.s:
+	$(MAKE) -f CMakeFiles/liblinear_lib.dir/build.make CMakeFiles/liblinear_lib.dir/Users/agata/Desktop/CodingProjects/Libraries/liblinear_1_96/linear.cpp.s
+.PHONY : Users/agata/Desktop/CodingProjects/Libraries/liblinear_1_96/linear.cpp.s
+
+Users/agata/Desktop/CodingProjects/Libraries/liblinear_1_96/predict.o: Users/agata/Desktop/CodingProjects/Libraries/liblinear_1_96/predict.c.o
+.PHONY : Users/agata/Desktop/CodingProjects/Libraries/liblinear_1_96/predict.o
+
+# target to build an object file
+Users/agata/Desktop/CodingProjects/Libraries/liblinear_1_96/predict.c.o:
+	$(MAKE) -f CMakeFiles/liblinear_lib.dir/build.make CMakeFiles/liblinear_lib.dir/Users/agata/Desktop/CodingProjects/Libraries/liblinear_1_96/predict.c.o
+.PHONY : Users/agata/Desktop/CodingProjects/Libraries/liblinear_1_96/predict.c.o
+
+Users/agata/Desktop/CodingProjects/Libraries/liblinear_1_96/predict.i: Users/agata/Desktop/CodingProjects/Libraries/liblinear_1_96/predict.c.i
+.PHONY : Users/agata/Desktop/CodingProjects/Libraries/liblinear_1_96/predict.i
+
+# target to preprocess a source file
+Users/agata/Desktop/CodingProjects/Libraries/liblinear_1_96/predict.c.i:
+	$(MAKE) -f CMakeFiles/liblinear_lib.dir/build.make CMakeFiles/liblinear_lib.dir/Users/agata/Desktop/CodingProjects/Libraries/liblinear_1_96/predict.c.i
+.PHONY : Users/agata/Desktop/CodingProjects/Libraries/liblinear_1_96/predict.c.i
+
+Users/agata/Desktop/CodingProjects/Libraries/liblinear_1_96/predict.s: Users/agata/Desktop/CodingProjects/Libraries/liblinear_1_96/predict.c.s
+.PHONY : Users/agata/Desktop/CodingProjects/Libraries/liblinear_1_96/predict.s
+
+# target to generate assembly for a file
+Users/agata/Desktop/CodingProjects/Libraries/liblinear_1_96/predict.c.s:
+	$(MAKE) -f CMakeFiles/liblinear_lib.dir/build.make CMakeFiles/liblinear_lib.dir/Users/agata/Desktop/CodingProjects/Libraries/liblinear_1_96/predict.c.s
+.PHONY : Users/agata/Desktop/CodingProjects/Libraries/liblinear_1_96/predict.c.s
+
+Users/agata/Desktop/CodingProjects/Libraries/liblinear_1_96/train.o: Users/agata/Desktop/CodingProjects/Libraries/liblinear_1_96/train.c.o
+.PHONY : Users/agata/Desktop/CodingProjects/Libraries/liblinear_1_96/train.o
+
+# target to build an object file
+Users/agata/Desktop/CodingProjects/Libraries/liblinear_1_96/train.c.o:
+	$(MAKE) -f CMakeFiles/liblinear_lib.dir/build.make CMakeFiles/liblinear_lib.dir/Users/agata/Desktop/CodingProjects/Libraries/liblinear_1_96/train.c.o
+.PHONY : Users/agata/Desktop/CodingProjects/Libraries/liblinear_1_96/train.c.o
+
+Users/agata/Desktop/CodingProjects/Libraries/liblinear_1_96/train.i: Users/agata/Desktop/CodingProjects/Libraries/liblinear_1_96/train.c.i
+.PHONY : Users/agata/Desktop/CodingProjects/Libraries/liblinear_1_96/train.i
+
+# target to preprocess a source file
+Users/agata/Desktop/CodingProjects/Libraries/liblinear_1_96/train.c.i:
+	$(MAKE) -f CMakeFiles/liblinear_lib.dir/build.make CMakeFiles/liblinear_lib.dir/Users/agata/Desktop/CodingProjects/Libraries/liblinear_1_96/train.c.i
+.PHONY : Users/agata/Desktop/CodingProjects/Libraries/liblinear_1_96/train.c.i
+
+Users/agata/Desktop/CodingProjects/Libraries/liblinear_1_96/train.s: Users/agata/Desktop/CodingProjects/Libraries/liblinear_1_96/train.c.s
+.PHONY : Users/agata/Desktop/CodingProjects/Libraries/liblinear_1_96/train.s
+
+# target to generate assembly for a file
+Users/agata/Desktop/CodingProjects/Libraries/liblinear_1_96/train.c.s:
+	$(MAKE) -f CMakeFiles/liblinear_lib.dir/build.make CMakeFiles/liblinear_lib.dir/Users/agata/Desktop/CodingProjects/Libraries/liblinear_1_96/train.c.s
+.PHONY : Users/agata/Desktop/CodingProjects/Libraries/liblinear_1_96/train.c.s
+
+Users/agata/Desktop/CodingProjects/Libraries/liblinear_1_96/tron.o: Users/agata/Desktop/CodingProjects/Libraries/liblinear_1_96/tron.cpp.o
+.PHONY : Users/agata/Desktop/CodingProjects/Libraries/liblinear_1_96/tron.o
+
+# target to build an object file
+Users/agata/Desktop/CodingProjects/Libraries/liblinear_1_96/tron.cpp.o:
+	$(MAKE) -f CMakeFiles/liblinear_lib.dir/build.make CMakeFiles/liblinear_lib.dir/Users/agata/Desktop/CodingProjects/Libraries/liblinear_1_96/tron.cpp.o
+.PHONY : Users/agata/Desktop/CodingProjects/Libraries/liblinear_1_96/tron.cpp.o
+
+Users/agata/Desktop/CodingProjects/Libraries/liblinear_1_96/tron.i: Users/agata/Desktop/CodingProjects/Libraries/liblinear_1_96/tron.cpp.i
+.PHONY : Users/agata/Desktop/CodingProjects/Libraries/liblinear_1_96/tron.i
+
+# target to preprocess a source file
+Users/agata/Desktop/CodingProjects/Libraries/liblinear_1_96/tron.cpp.i:
+	$(MAKE) -f CMakeFiles/liblinear_lib.dir/build.make CMakeFiles/liblinear_lib.dir/Users/agata/Desktop/CodingProjects/Libraries/liblinear_1_96/tron.cpp.i
+.PHONY : Users/agata/Desktop/CodingProjects/Libraries/liblinear_1_96/tron.cpp.i
+
+Users/agata/Desktop/CodingProjects/Libraries/liblinear_1_96/tron.s: Users/agata/Desktop/CodingProjects/Libraries/liblinear_1_96/tron.cpp.s
+.PHONY : Users/agata/Desktop/CodingProjects/Libraries/liblinear_1_96/tron.s
+
+# target to generate assembly for a file
+Users/agata/Desktop/CodingProjects/Libraries/liblinear_1_96/tron.cpp.s:
+	$(MAKE) -f CMakeFiles/liblinear_lib.dir/build.make CMakeFiles/liblinear_lib.dir/Users/agata/Desktop/CodingProjects/Libraries/liblinear_1_96/tron.cpp.s
+.PHONY : Users/agata/Desktop/CodingProjects/Libraries/liblinear_1_96/tron.cpp.s
 
 Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_light/svm_common.o: Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_light/svm_common.c.o
 .PHONY : Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_light/svm_common.o
@@ -346,6 +468,30 @@ Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_struct_learn_custom.c.
 	$(MAKE) -f CMakeFiles/svm_rank_lib.dir/build.make CMakeFiles/svm_rank_lib.dir/Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_struct_learn_custom.c.s
 .PHONY : Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_struct_learn_custom.c.s
 
+liblinear_lib_automoc.o: liblinear_lib_automoc.cpp.o
+.PHONY : liblinear_lib_automoc.o
+
+# target to build an object file
+liblinear_lib_automoc.cpp.o:
+	$(MAKE) -f CMakeFiles/liblinear_lib.dir/build.make CMakeFiles/liblinear_lib.dir/liblinear_lib_automoc.cpp.o
+.PHONY : liblinear_lib_automoc.cpp.o
+
+liblinear_lib_automoc.i: liblinear_lib_automoc.cpp.i
+.PHONY : liblinear_lib_automoc.i
+
+# target to preprocess a source file
+liblinear_lib_automoc.cpp.i:
+	$(MAKE) -f CMakeFiles/liblinear_lib.dir/build.make CMakeFiles/liblinear_lib.dir/liblinear_lib_automoc.cpp.i
+.PHONY : liblinear_lib_automoc.cpp.i
+
+liblinear_lib_automoc.s: liblinear_lib_automoc.cpp.s
+.PHONY : liblinear_lib_automoc.s
+
+# target to generate assembly for a file
+liblinear_lib_automoc.cpp.s:
+	$(MAKE) -f CMakeFiles/liblinear_lib.dir/build.make CMakeFiles/liblinear_lib.dir/liblinear_lib_automoc.cpp.s
+.PHONY : liblinear_lib_automoc.cpp.s
+
 src/MainWindow.o: src/MainWindow.cpp.o
 .PHONY : src/MainWindow.o
 
@@ -369,6 +515,54 @@ src/MainWindow.s: src/MainWindow.cpp.s
 src/MainWindow.cpp.s:
 	$(MAKE) -f CMakeFiles/MicrosoftTask.dir/build.make CMakeFiles/MicrosoftTask.dir/src/MainWindow.cpp.s
 .PHONY : src/MainWindow.cpp.s
+
+src/logreg.o: src/logreg.cpp.o
+.PHONY : src/logreg.o
+
+# target to build an object file
+src/logreg.cpp.o:
+	$(MAKE) -f CMakeFiles/MicrosoftTask.dir/build.make CMakeFiles/MicrosoftTask.dir/src/logreg.cpp.o
+.PHONY : src/logreg.cpp.o
+
+src/logreg.i: src/logreg.cpp.i
+.PHONY : src/logreg.i
+
+# target to preprocess a source file
+src/logreg.cpp.i:
+	$(MAKE) -f CMakeFiles/MicrosoftTask.dir/build.make CMakeFiles/MicrosoftTask.dir/src/logreg.cpp.i
+.PHONY : src/logreg.cpp.i
+
+src/logreg.s: src/logreg.cpp.s
+.PHONY : src/logreg.s
+
+# target to generate assembly for a file
+src/logreg.cpp.s:
+	$(MAKE) -f CMakeFiles/MicrosoftTask.dir/build.make CMakeFiles/MicrosoftTask.dir/src/logreg.cpp.s
+.PHONY : src/logreg.cpp.s
+
+src/logregression.o: src/logregression.cpp.o
+.PHONY : src/logregression.o
+
+# target to build an object file
+src/logregression.cpp.o:
+	$(MAKE) -f CMakeFiles/MicrosoftTask.dir/build.make CMakeFiles/MicrosoftTask.dir/src/logregression.cpp.o
+.PHONY : src/logregression.cpp.o
+
+src/logregression.i: src/logregression.cpp.i
+.PHONY : src/logregression.i
+
+# target to preprocess a source file
+src/logregression.cpp.i:
+	$(MAKE) -f CMakeFiles/MicrosoftTask.dir/build.make CMakeFiles/MicrosoftTask.dir/src/logregression.cpp.i
+.PHONY : src/logregression.cpp.i
+
+src/logregression.s: src/logregression.cpp.s
+.PHONY : src/logregression.s
+
+# target to generate assembly for a file
+src/logregression.cpp.s:
+	$(MAKE) -f CMakeFiles/MicrosoftTask.dir/build.make CMakeFiles/MicrosoftTask.dir/src/logregression.cpp.s
+.PHONY : src/logregression.cpp.s
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
@@ -466,6 +660,30 @@ src/qcustomplot.cpp.s:
 	$(MAKE) -f CMakeFiles/MicrosoftTask.dir/build.make CMakeFiles/MicrosoftTask.dir/src/qcustomplot.cpp.s
 .PHONY : src/qcustomplot.cpp.s
 
+src/svmrankanalysis.o: src/svmrankanalysis.cpp.o
+.PHONY : src/svmrankanalysis.o
+
+# target to build an object file
+src/svmrankanalysis.cpp.o:
+	$(MAKE) -f CMakeFiles/MicrosoftTask.dir/build.make CMakeFiles/MicrosoftTask.dir/src/svmrankanalysis.cpp.o
+.PHONY : src/svmrankanalysis.cpp.o
+
+src/svmrankanalysis.i: src/svmrankanalysis.cpp.i
+.PHONY : src/svmrankanalysis.i
+
+# target to preprocess a source file
+src/svmrankanalysis.cpp.i:
+	$(MAKE) -f CMakeFiles/MicrosoftTask.dir/build.make CMakeFiles/MicrosoftTask.dir/src/svmrankanalysis.cpp.i
+.PHONY : src/svmrankanalysis.cpp.i
+
+src/svmrankanalysis.s: src/svmrankanalysis.cpp.s
+.PHONY : src/svmrankanalysis.s
+
+# target to generate assembly for a file
+src/svmrankanalysis.cpp.s:
+	$(MAKE) -f CMakeFiles/MicrosoftTask.dir/build.make CMakeFiles/MicrosoftTask.dir/src/svmrankanalysis.cpp.s
+.PHONY : src/svmrankanalysis.cpp.s
+
 svm_rank_lib_automoc.o: svm_rank_lib_automoc.cpp.o
 .PHONY : svm_rank_lib_automoc.o
 
@@ -497,14 +715,28 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... svm_rank_lib_automoc"
+	@echo "... liblinear_lib"
 	@echo "... svm_rank_lib"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... MicrosoftTask"
+	@echo "... liblinear_lib_automoc"
 	@echo "... MicrosoftTask_automoc"
 	@echo "... MicrosoftTask_automoc.o"
 	@echo "... MicrosoftTask_automoc.i"
 	@echo "... MicrosoftTask_automoc.s"
+	@echo "... Users/agata/Desktop/CodingProjects/Libraries/liblinear_1_96/linear.o"
+	@echo "... Users/agata/Desktop/CodingProjects/Libraries/liblinear_1_96/linear.i"
+	@echo "... Users/agata/Desktop/CodingProjects/Libraries/liblinear_1_96/linear.s"
+	@echo "... Users/agata/Desktop/CodingProjects/Libraries/liblinear_1_96/predict.o"
+	@echo "... Users/agata/Desktop/CodingProjects/Libraries/liblinear_1_96/predict.i"
+	@echo "... Users/agata/Desktop/CodingProjects/Libraries/liblinear_1_96/predict.s"
+	@echo "... Users/agata/Desktop/CodingProjects/Libraries/liblinear_1_96/train.o"
+	@echo "... Users/agata/Desktop/CodingProjects/Libraries/liblinear_1_96/train.i"
+	@echo "... Users/agata/Desktop/CodingProjects/Libraries/liblinear_1_96/train.s"
+	@echo "... Users/agata/Desktop/CodingProjects/Libraries/liblinear_1_96/tron.o"
+	@echo "... Users/agata/Desktop/CodingProjects/Libraries/liblinear_1_96/tron.i"
+	@echo "... Users/agata/Desktop/CodingProjects/Libraries/liblinear_1_96/tron.s"
 	@echo "... Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_light/svm_common.o"
 	@echo "... Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_light/svm_common.i"
 	@echo "... Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_light/svm_common.s"
@@ -526,9 +758,18 @@ help:
 	@echo "... Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_struct_learn_custom.o"
 	@echo "... Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_struct_learn_custom.i"
 	@echo "... Users/agata/Desktop/CodingProjects/Libraries/svm_rank/svm_struct_learn_custom.s"
+	@echo "... liblinear_lib_automoc.o"
+	@echo "... liblinear_lib_automoc.i"
+	@echo "... liblinear_lib_automoc.s"
 	@echo "... src/MainWindow.o"
 	@echo "... src/MainWindow.i"
 	@echo "... src/MainWindow.s"
+	@echo "... src/logreg.o"
+	@echo "... src/logreg.i"
+	@echo "... src/logreg.s"
+	@echo "... src/logregression.o"
+	@echo "... src/logregression.i"
+	@echo "... src/logregression.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
@@ -541,6 +782,9 @@ help:
 	@echo "... src/qcustomplot.o"
 	@echo "... src/qcustomplot.i"
 	@echo "... src/qcustomplot.s"
+	@echo "... src/svmrankanalysis.o"
+	@echo "... src/svmrankanalysis.i"
+	@echo "... src/svmrankanalysis.s"
 	@echo "... svm_rank_lib_automoc.o"
 	@echo "... svm_rank_lib_automoc.i"
 	@echo "... svm_rank_lib_automoc.s"

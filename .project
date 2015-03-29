@@ -119,6 +119,66 @@
 			<locationURI>virtual:/virtual</locationURI>
 		</link>
 		<link>
+			<name>[Targets]/[lib] liblinear_lib</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] liblinear_lib/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] liblinear_lib/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] liblinear_lib/Source Files/predict.c</name>
+			<type>1</type>
+			<location>/Users/agata/Desktop/CodingProjects/Libraries/liblinear_1_96/predict.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] liblinear_lib/Source Files/linear.cpp</name>
+			<type>1</type>
+			<location>/Users/agata/Desktop/CodingProjects/Libraries/liblinear_1_96/linear.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] liblinear_lib/Source Files/train.c</name>
+			<type>1</type>
+			<location>/Users/agata/Desktop/CodingProjects/Libraries/liblinear_1_96/train.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] liblinear_lib/Source Files/tron.cpp</name>
+			<type>1</type>
+			<location>/Users/agata/Desktop/CodingProjects/Libraries/liblinear_1_96/tron.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] liblinear_lib/Source Files/liblinear_lib_automoc.cpp</name>
+			<type>1</type>
+			<location>/Users/agata/Desktop/CodingProjects/MicrosoftTask/liblinear_lib_automoc.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] liblinear_lib/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] liblinear_lib/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] liblinear_lib/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] liblinear_lib/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
 			<name>[Targets]/[lib] svm_rank_lib</name>
 			<type>2</type>
 			<locationURI>virtual:/virtual</locationURI>
@@ -232,6 +292,21 @@
 			<name>[Targets]/[exe] MicrosoftTask/Source Files/qcustomplot.cpp</name>
 			<type>1</type>
 			<location>/Users/agata/Desktop/CodingProjects/MicrosoftTask/src/qcustomplot.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] MicrosoftTask/Source Files/logregression.cpp</name>
+			<type>1</type>
+			<location>/Users/agata/Desktop/CodingProjects/MicrosoftTask/src/logregression.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] MicrosoftTask/Source Files/svmrankanalysis.cpp</name>
+			<type>1</type>
+			<location>/Users/agata/Desktop/CodingProjects/MicrosoftTask/src/svmrankanalysis.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] MicrosoftTask/Source Files/logreg.cpp</name>
+			<type>1</type>
+			<location>/Users/agata/Desktop/CodingProjects/MicrosoftTask/src/logreg.cpp</location>
 		</link>
 		<link>
 			<name>[Targets]/[exe] MicrosoftTask/Source Files/MicrosoftTask_automoc.cpp</name>
